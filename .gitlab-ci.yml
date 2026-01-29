@@ -1,0 +1,42 @@
+stages:
+  - build
+  - deploy
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+  LC_ALL: en_US.UTF-8
+  course: cse160
+  quarter: 26sp
+  source_path: _build/html
+
+mystmd:
+  stage: build
+  tags:
+    - courseweb
+  variables:
+    BASE_URL: /courses/$course/$quarter
+  script:
+    - export PATH="/home/gitlab-runner/.local/bin/:$PATH"
+    - pip install nodeenv
+    - nodeenv -n 24.13.0 node_env
+    - source node_env/bin/activate
+    - npm install
+    - npx mystmd build --html
+  artifacts:
+    paths:
+      - $source_path
+
+courseweb:
+  stage: deploy
+  tags:
+    - courseweb
+  script:
+    - /www/utils/deploycourseweb.sh
+  cache: {}
+  variables:
+    delete: 'yes' # https://yaml.org/type/bool.html
+    GIT_STRATEGY: none
+  only:
+    - main
+  dependencies:
+    - mystmd

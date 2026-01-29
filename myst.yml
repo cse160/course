@@ -1,0 +1,37 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: bcd02d08-bfe0-4c33-bd02-3ee9eb4f1223
+  title: CSE 160 Spring 2026
+  subtitle: University of Washington
+  short_title: CSE 160
+  description: Intermediate Data Programming
+  license:
+    content: CC-BY-NC-SA-4.0
+    code: MIT
+  keywords:
+    - programming
+    - data science
+    - computer science
+  authors:
+    - id: kevin-lin
+      orcid: 0000-0001-9946-3635
+      name: Kevin Lin
+      affiliation: University of Washington
+      corresponding: true
+      email: kevinl@cs.uw.edu
+      url: https://kevinl.info
+      github: kevinlin1
+  github: cse160/course
+  toc:
+  plugins:
+    - schedule.mjs
+site:
+  template: book-theme
+  options:
+    logo_text: CSE 160 Spring 2026
+    style: style.css
+  nav:
+  actions:
+    - title: JupyterHub
+      url: https://jupyter.rttl.uw.edu/2026-spring-cse-160-a/
