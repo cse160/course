@@ -7,7 +7,7 @@
     - date: Wed, Apr 1
       items:
         - type: Lecture
-          name: Loops
+          name: Conditionals
     - date: Thu, Apr 2
       items:
         - type: Section
@@ -15,11 +15,11 @@
     - date: Fri, Apr 3
       items:
         - type: Lecture
-          name: Nested Loops
+          name: Loops
     - date: Mon, Apr 6
       items:
         - type: Lecture
-          name: Conditionals
+          name: Nested Loops
         - type: Homework
           name: Practical
     - date: Wed, Apr 8
