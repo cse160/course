@@ -56,15 +56,15 @@ Today, we know that there are more effective ways to learn science, engineering,
 
 In groups during class and quiz section, collaborate on the in-class guided practice.
 : In PollEverywhere during lecture, **correctly answer all questions**.
-: In Gradescope during section, **correctly answer all questions**.
+: During section, participate in peer discussions to receive credit.
 
 On your own after class, apply what you learned in the homework and project.
-: Practice applying your learning by completing **Exercises** (not submitted for credit).
+: In Gradescope, submit **Programming Practice** to apply your learning.
 : In Gradescope, submit your completed **Homework** assignment for the week.
 
-During certain class meetings, complete the quest (quick test) to show what you've learned.
+During some classes, complete the quest (quick test) to show what you've learned.
 : On paper, complete a 30-minute quest individually before reworking it with a group.
-: At the end of the quarter, complete the paper final exam, which reassesses course concepts.
+: At the end of the quarter, complete the final exam, which reassesses concepts.
 
 All homework is designed to be completed with what has been taught in class. Keep your homework within the scope of what has been taught. Work that is found to be out-of-scope will receive deductions. Repeated use of out-of-scope content is considered academic misconduct. Help from sources outside the course may be used only for clarifying concepts, supporting debugging, or explaining problems at a high level. Writeups should all be your own words and ideas; you will not be penalized for grammar or mechanics as long as we understand what you are saying and your arguments are reasonable.
 
