@@ -90,6 +90,7 @@ Final grades are determined through a three-step process designed to measure you
 
 Quests and Final Exam
 : This is the most significant part of your grade. Each of the 3 graded quests contribute 15% toward your final grade. The final exam is worth the remaining 55% of your grade and contains 4 parts. The first 3 parts of the final exam correspond to the 3 graded quests. If your score on a part of the final is higher than your score on the matching quest, the better final part will replace your quest grade.
+: Quest and final exam scores will be rounded up. Each score will be rounded up to the next 10% interval. For example, any score greater than 90% on will be rounded up to 100%. Note that a score of exactly 90% remains 90%.
 
 Homework
 : Homework scales the score you earned from your quests and final exam. If you complete all your homework perfectly, you keep 100% of your score from the first step. However, if you don't do any of the homework at all, your score from the first step will be cut in half. Performance between 0 and 100 will scale this effect accordingly.
