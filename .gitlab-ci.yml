@@ -1,4 +1,5 @@
 stages:
+  - lint
   - build
   - deploy
 
@@ -8,6 +9,14 @@ variables:
   course: cse160
   quarter: 26sp
   source_path: _build/html
+
+flake8:
+  stage: lint
+  tags:
+    - courseweb
+  script:
+    - pip install flake8
+    - python3 -m flake8
 
 mystmd:
   stage: build
