@@ -122,7 +122,7 @@ As in problems 3 through 5, the code should work for any number of fractions to 
 
 Run our linter (automated code style checker) in the Python console with the expression `!flake8`. Edit the file and save your changes after addressing all reported issues. A successful `!flake8` run will print nothing when there are no linting issues to report.
 
-```py
+```python
 !flake8
 ```
 
