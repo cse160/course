@@ -26,6 +26,8 @@ project:
   toc:
     - file: README.md
     - file: quests.md
+    - file: reference.md
+      hidden: true
     - file: staff.md
       hidden: true
     - file: style-guide.md
@@ -41,6 +43,8 @@ site:
     logo_text: CSE 160 Spring 2026
     style: style.css
   nav:
+    - title: Reference
+      url: /reference
     - title: Staff
       url: /staff
     - title: Style Guide
