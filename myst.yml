@@ -25,7 +25,6 @@ project:
   github: cse160/course
   toc:
     - file: README.md
-    - file: quests.md
     - file: reference.md
       hidden: true
     - file: staff.md
