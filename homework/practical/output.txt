@@ -1,0 +1,36 @@
+Problem 1 solution follows:
+Root 1: ____
+Root 2: ____
+
+Problem 2 solution follows:
+1/2: ____
+1/3: ____
+1/4: ____
+1/5: ____
+1/6: ____
+1/7: ____
+1/8: ____
+1/9: ____
+1/10: ____
+
+Problem 3 solution follows:
+Triangular number 10 via loop: ____
+Triangular number 10 via formula: ____
+
+Problem 4 solution follows:
+10!: ____
+
+Problem 5 solution follows:
+10!: ____
+9!: ____
+8!: ____
+7!: ____
+6!: ____
+5!: ____
+4!: ____
+3!: ____
+2!: ____
+1!: ____
+
+Problem 6 solution follows:
+e: ____
