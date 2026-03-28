@@ -92,9 +92,10 @@ Quests and Final Exam
 : This is the most significant part of your grade. Each of the 3 graded quests contribute 15% toward your final grade. The final exam is worth the remaining 55% of your grade and contains 4 parts. The first 3 parts of the final exam correspond to the 3 graded quests. If your score on a part of the final is higher than your score on the matching quest, the better final part will replace your quest grade.
 : Quest and final exam scores will be rounded up. Each score will be rounded up to the next 10% interval. For example, any score greater than 90% on will be rounded up to 100%. Note that a score of exactly 90% remains 90%.
 
-Homework
-: Homework scales the score you earned from your quests and final exam. If you complete all your homework perfectly, you keep 100% of your score from the first step. However, if you don't do any of the homework at all, your score from the first step will be cut in half. Performance between 0 and 100 will scale this effect accordingly.
+Homework and Programming Practice
+: Homework and programming practice scale the score you earned from your quests and final exam. If you complete all your homework and programming practice perfectly, you keep 100% of your score from the first step. However, if you don't do any of the homework and programming practice at all, your score from the first step will be cut in half. Performance between 0 and 100 will scale this effect accordingly.
 : Homework scores will be rounded up. Each score will be rounded up to the next 10% interval. For example, any score greater than 90% on will be rounded up to 100%. Note that a score of exactly 90% remains 90%.
+: Programming Practice scores will also be rounded up. Each score will be rounded up to the next 50% interval. For example, any score greater than 50% will be rounded up to 100%. Note that a score of exactly 50% remains 50%.
 
 Lightweight Activities
 : Lightweight activities and participation determine how your final grade is rounded. By default, your grade on the 4.0 scale is rounded down to the nearest decimal point (for example, a 3.89 becomes a 3.8). If you complete at least 90% of the lightweight activities, your grade will be rounded normally instead (a 3.85 becomes a 3.9).
