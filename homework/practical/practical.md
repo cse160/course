@@ -104,7 +104,7 @@ Problem 5 solution follows:
 
 As in problems 3 and 4, the code should work for any number just by changing `num_lines`.
 
-## Problem 6: Sums of reciprocals of factorials
+## Problem 6: Approximating $e$
 
 Write code that uses a **nested** `for` loop to compute the value $$1 + \frac{1}{1!} + \frac{1}{2!} + \frac{1}{3!} + ... + \frac{1}{10!}$$
 
