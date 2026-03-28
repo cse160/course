@@ -4,6 +4,7 @@
       items:
         - type: Lecture
           name: Variables and Expressions
+          href: ./variables-and-expressions
     - date: Wed, Apr 1
       items:
         - type: Lecture
