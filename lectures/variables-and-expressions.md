@@ -1,3 +1,13 @@
+---
+exports:
+  - format: typst
+    template: ./
+    id: variables-and-expressions-handout
+downloads:
+  - id: variables-and-expressions-handout
+    title: Handout
+---
+
 # Variables and Expressions
 
 Variables and expressions are the building blocks of data programming.

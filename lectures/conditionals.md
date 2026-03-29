@@ -1,3 +1,13 @@
+---
+exports:
+  - format: typst
+    template: ./
+    id: conditionals-handout
+downloads:
+  - id: conditionals-handout
+    title: Handout
+---
+
 # Conditionals
 
 A **conditional statement** allows us to change program control flow based on the truth value of a condition. They are a form of decision-based logic that some people use in their daily lives. For example, if the temperature is above 4°C, then wear sandals.

@@ -1,0 +1,22 @@
+jtex: v1
+kind: typst
+title: Handout
+description: Write compact handouts.
+template: template.typ
+files:
+  - template.typ
+authors:
+  - name: Kevin Lin
+    github: kevinlin1
+    website: https://kevinl.info/
+    affiliations:
+      - University of Washington
+version: 0.0.1
+license: MIT
+tags:
+  - handout
+doc:
+  - id: title
+    required: true
+  - id: authors
+    required: true
