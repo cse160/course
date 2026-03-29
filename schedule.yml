@@ -9,6 +9,7 @@
       items:
         - type: Lecture
           name: Conditionals
+          href: ./conditionals
     - date: Thu, Apr 2
       items:
         - type: Section
