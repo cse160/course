@@ -1,6 +1,6 @@
 # Reference
 
-## If Statements
+## Conditionals
 
 [`if` statements](https://docs.python.org/3.13/tutorial/controlflow.html#if-statements) runs the indented block depending on the [truth value of the condition](https://docs.python.org/3/library/stdtypes.html#truth-value-testing).
 
