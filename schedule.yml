@@ -4,12 +4,12 @@
       items:
         - type: Lecture
           name: Variables and Expressions
-          href: variables-and-expressions
+          href: /variables-and-expressions
     - date: Wed, Apr 1
       items:
         - type: Lecture
           name: Conditionals
-          href: conditionals
+          href: /conditionals
     - date: Thu, Apr 2
       items:
         - type: Section
