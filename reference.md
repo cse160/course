@@ -1,3 +1,13 @@
+---
+exports:
+  - format: typst
+    template: ./lectures/
+    id: reference-handout
+downloads:
+  - id: reference-handout
+    title: Handout
+---
+
 # Reference
 
 ## Conditionals
