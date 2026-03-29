@@ -6,7 +6,6 @@ A **conditional statement** allows us to change program control flow based on th
 temperature = 22
 if temperature > 4:
     footwear = "sandals"
-
 footwear # What's my footwear for today?
 ```
 
@@ -66,7 +65,6 @@ if x > y:
 if x < y:
     x = x + 1
     y = y - 1
-
 x, y # What is the value of x and y?
 ```
 
@@ -78,7 +76,6 @@ What happens if the temperature is right above freezing? It's no longer sandals 
 temperature = 1
 if temperature > 4:
     footwear = "sandals"
-
 footwear
 ```
 
@@ -93,7 +90,6 @@ if temperature > 4:
     footwear = "sandals"
 else:
     footwear = "sandals with socks"
-
 footwear
 ```
 
@@ -113,7 +109,6 @@ else:
             result = val
         else:
             result = val
-
 result # What's the absolute value of val?
 ```
 
@@ -131,7 +126,6 @@ elif temperature >= 0:
     footwear = "sandals with socks"
 else:
     footwear = "sneakers"
-
 footwear
 ```
 
@@ -145,7 +139,6 @@ elif temperature > 4:
     footwear = "sandals"
 else:
     footwear = "sneakers"
-
 footwear
 ```
 
