@@ -1,3 +1,6 @@
 [submodule "images"]
 	path = images
 	url = ../images/
+[submodule "fonts"]
+	path = fonts
+	url = ../fonts
