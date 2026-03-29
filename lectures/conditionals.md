@@ -22,26 +22,6 @@ footwear # What's my footwear for today?
 > [!note]
 > [Indented code](../style-guide.md#indentation) following the `if` statement only runs when the condition is true!
 
-## `print` function
-
-While the Python console allows us to directly evaluate expressions like `footwear` and see the answer (`"sandals"`), Python Tutor doesn't work the same way. To report a value, we can call the `print` function, which displays values in human-readable form. What do you notice is different about the output when we print a value?
-
-```python
-print(footwear)
-```
-
-`print` is particularly helpful for showing multiple lines of text on the screen at once!
-
-```python
-print("You: How is the weather today?")
-print("Me: It's", footwear, "weather!")
-print("You: Are you sure it's " + footwear + " weather today?")
-```
-
-Calling `print()` (with empty parentheses) produces a blank line.
-
-We'll learn more about functions in a future lesson: for now, we just need to be familiar with these different ways of calling `print` to show certain outputs.
-
 ## Booleans
 
 To represent a concept like whether the temperature is above freezing, Python provides the `bool` data type that only has two possible values: `True` and `False`.
@@ -151,6 +131,26 @@ else:
     footwear = "sneakers"
 footwear
 ```
+
+## `print` function
+
+While the Python console allows us to directly evaluate expressions like `footwear` and see the answer (`"sandals"`), Python Tutor doesn't work the same way. To report a value, we can call the `print` function, which displays values in human-readable form. What do you notice is different about the output when we print a value?
+
+```python
+print(footwear)
+```
+
+`print` is particularly helpful for showing multiple lines of text on the screen at once!
+
+```python
+print("You: How is the weather today?")
+print("Me: It's", footwear, "weather!")
+print("You: Are you sure it's " + footwear + " weather today?")
+```
+
+Calling `print()` (with empty parentheses) produces a blank line.
+
+We'll learn more about functions in a future lesson: for now, we just need to be familiar with these different ways of calling `print` to show certain outputs.
 
 ## Practice: Control flow
 
