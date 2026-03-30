@@ -84,26 +84,6 @@ Prohibited
 : Giving, receiving, obtaining, or generating a walkthrough to an assignment.
 : Posting solutions to an assignment in a public place even after the course is over.
 
-## How is this course graded?
-
-Final grades are determined through a three-step process designed to measure your core knowledge, reward your hard work, and encourage consistent participation.
-
-Quests and Final Exam
-: This is the most significant part of your grade. Each of the 3 graded quests contribute 15% toward your final grade. The final exam is worth the remaining 55% of your grade and contains 4 parts. The first 3 parts of the final exam correspond to the 3 graded quests. If your score on a part of the final is higher than your score on the matching quest, the better final part will replace your quest grade.
-: Quest and final exam scores will be rounded up. Each score will be rounded up to the next 10% interval. For example, any score greater than 90% on will be rounded up to 100%. Note that a score of exactly 90% remains 90%.
-
-Homework and Programming Practice
-: Homework and programming practice scale the score you earned from your quests and final exam. If you complete all your homework and programming practice perfectly, you keep 100% of your score from the first step. However, if you don't do any of the homework and programming practice at all, your score from the first step will be cut in half. Performance between 0 and 100 will scale this effect accordingly.
-: Homework scores will be rounded up. Each score will be rounded up to the next 10% interval. For example, any score greater than 90% on will be rounded up to 100%. Note that a score of exactly 90% remains 90%.
-: Programming Practice scores will also be rounded up. Each score will be rounded up to the next 50% interval. For example, any score greater than 50% will be rounded up to 100%. Note that a score of exactly 50% remains 50%.
-
-Lightweight Activities
-: Lightweight activities and participation determine how your final grade is rounded. By default, your grade on the 4.0 scale is rounded down to the nearest decimal point (for example, a 3.89 becomes a 3.8). If you complete at least 90% of the lightweight activities, your grade will be rounded normally instead (a 3.85 becomes a 3.9).
-
-All coursework except for the final exam have mechanisms for demonstrating improvement. Learning in this course involves feedback loops where you try something, get feedback, and then try again. Grades are based on what you eventually learn through this process. Each homework assignment has a single resubmission period for students to improve their work.
-
-All suspected violations of course policies on academic honesty will be reported to [Community Standards & Student Conduct](https://www.washington.edu/cssc/) (CSSC) for formal investigation. Any work found to be in violation will receive no credit as we can only assess proficiency from your own honest work, and you forfeit the option to resubmit the particular assignment. If CSSC finds violations across multiple assignments, a failing grade (0.0) will be assigned.
-
 ## How do quests work?
 
 A **quest** (quick test) is a in-person written assessment consisting of a 30-minute individual activity followed by a 15-minute group activity. Be in your assigned seat on time as we plan to begin promptly. Late arrivals will not have additional time to complete the quest. Review the following policies carefully.
@@ -130,3 +110,23 @@ Alternatives
 : No alternate quests will be offered. Higher scores on matching parts of the final exam will be used to replace missing quest scores.
 
 The group activity immediately follows the individual activity and involves completing the quest again with your seat neighbors. The purpose of the group activity is to turn the quest from an assessment opportunity to a learning opportunity. Both the individual activity and group activity are graded: the individual activity is two-thirds of the quest's final grade weight and the group activity is one-third of the quest's final grade weight. If you score better on the individual activity, it will replace your group activity score during calculation of final grades.
+
+## How is this course graded?
+
+Final grades are determined through a three-step process designed to measure your core knowledge, reward your hard work, and encourage consistent participation.
+
+Quests and Final Exam
+: This is the most significant part of your grade. Each of the 3 graded quests contribute 15% toward your final grade. The final exam is worth the remaining 55% of your grade and contains 4 parts. The first 3 parts of the final exam correspond to the 3 graded quests. If your score on a part of the final is higher than your score on the matching quest, the better final part will replace your quest grade.
+: Quest and final exam scores will be rounded up. Each score will be rounded up to the next 10% interval. For example, any score greater than 90% on will be rounded up to 100%. Note that a score of exactly 90% remains 90%.
+
+Homework and Programming Practice
+: Homework and programming practice scale the score you earned from your quests and final exam. If you complete all your homework and programming practice perfectly, you keep 100% of your score from the first step. However, if you don't do any of the homework and programming practice at all, your score from the first step will be cut in half. Performance between 0 and 100 will scale this effect accordingly.
+: Homework scores will be rounded up. Each score will be rounded up to the next 10% interval. For example, any score greater than 90% on will be rounded up to 100%. Note that a score of exactly 90% remains 90%.
+: Programming Practice scores will also be rounded up. Each score will be rounded up to the next 50% interval. For example, any score greater than 50% will be rounded up to 100%. Note that a score of exactly 50% remains 50%.
+
+Lightweight Activities
+: Lightweight activities and participation determine how your final grade is rounded. By default, your grade on the 4.0 scale is rounded down to the nearest decimal point (for example, a 3.89 becomes a 3.8). If you complete at least 90% of the lightweight activities, your grade will be rounded normally instead (a 3.85 becomes a 3.9).
+
+All coursework except for the final exam have mechanisms for demonstrating improvement. Learning in this course involves feedback loops where you try something, get feedback, and then try again. Grades are based on what you eventually learn through this process. Each homework assignment has a single resubmission period for students to improve their work.
+
+All suspected violations of course policies on academic honesty will be reported to [Community Standards & Student Conduct](https://www.washington.edu/cssc/) (CSSC) for formal investigation. Any work found to be in violation will receive no credit as we can only assess proficiency from your own honest work, and you forfeit the option to resubmit the particular assignment. If CSSC finds violations across multiple assignments, a failing grade (0.0) will be assigned.
