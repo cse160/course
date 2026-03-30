@@ -130,3 +130,5 @@ Lightweight Activities
 All coursework except for the final exam have mechanisms for demonstrating improvement. Learning in this course involves feedback loops where you try something, get feedback, and then try again. Grades are based on what you eventually learn through this process. Each homework assignment has a single resubmission period for students to improve their work.
 
 All suspected violations of course policies on academic honesty will be reported to [Community Standards & Student Conduct](https://www.washington.edu/cssc/) (CSSC) for formal investigation. Any work found to be in violation will receive no credit as we can only assess proficiency from your own honest work, and you forfeit the option to resubmit the particular assignment. If CSSC finds violations across multiple assignments, a failing grade (0.0) will be assigned.
+
+Grades and penalties aren't the purpose of this course. We really just want you to learn. The entire staff is very excited to be teaching CSE 160 this quarter and we want all of you to be successful here. Welcome to CSE 160!
