@@ -79,7 +79,7 @@ What is the output of the following loop?
 total = 10
 for number in range(1, total // 2):
     total = total - number
-    print(total, number)
+    print(total)
 ```
 
 > [!note]
