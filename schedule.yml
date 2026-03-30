@@ -26,6 +26,7 @@
           href: /nested-loops
         - type: Homework
           name: Practical
+          href: /practical
     - date: Wed, Apr 8
       items:
         - type: Lecture
