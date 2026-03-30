@@ -36,6 +36,7 @@ project:
         - file: lectures/variables-and-expressions.md
         - file: lectures/conditionals.md
         - file: lectures/loops.md
+        - file: lectures/nested-loops.md
     - title: Homework
       children:
         - file: homework/practical/practical.md
