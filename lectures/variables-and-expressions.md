@@ -74,7 +74,6 @@ Let's try another example that will teach us a bit more about how variables and 
 a = 5
 b = 10
 c = b
-
 a = a + 1
 b = b - 1
 c = c + a
