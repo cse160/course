@@ -66,7 +66,9 @@ During some classes, complete the quest (quick test) to show what you've learned
 : On paper, complete a 30-minute quest individually before reworking it with a group.
 : At the end of the quarter, complete the final exam, which reassesses concepts.
 
-All homework is designed to be completed with what has been taught in class. Keep your homework within the scope of what has been taught. Work that is found to be out-of-scope will receive deductions. Repeated use of out-of-scope content is considered academic misconduct. Help from sources outside the course may be used only for clarifying concepts, supporting debugging, or explaining problems at a high level. Writeups should all be your own words and ideas; you will not be penalized for grammar or mechanics as long as we understand what you are saying and your arguments are reasonable.
+Expect to spend 4 hours in class and 8 hours outside of class working on this course. Some weeks may require more or less time than other weeks. If you find the workload is significantly exceeding this expectation, talk to your TA.
+
+All homework and programming practice is designed to be completed with what has been taught in class. Keep your homework and programming practice within the scope of what has been taught. Work that is found to be out-of-scope will receive deductions. Repeated use of out-of-scope content is considered academic misconduct. Help from sources outside the course may be used only for clarifying concepts, supporting debugging, or explaining problems at a high level. Writeups should all be your own words and ideas; you will not be penalized for grammar or mechanics as long as we understand what you are saying and your arguments are reasonable.
 
 Encouraged
 : Discussing examples shown in class. These examples are learning materials.
@@ -81,8 +83,6 @@ Prohibited
 : Obtaining solutions to any assignment part in any form for any reason.
 : Giving, receiving, obtaining, or generating a walkthrough to an assignment.
 : Posting solutions to an assignment in a public place even after the course is over.
-
-Expect to spend 4 hours in class and 8 hours outside of class working on this course. Some weeks may require more or less time than other weeks. If you find the workload is significantly exceeding this expectation, talk to your TA.
 
 ## How is this course graded?
 
@@ -101,6 +101,8 @@ Lightweight Activities
 : Lightweight activities and participation determine how your final grade is rounded. By default, your grade on the 4.0 scale is rounded down to the nearest decimal point (for example, a 3.89 becomes a 3.8). If you complete at least 90% of the lightweight activities, your grade will be rounded normally instead (a 3.85 becomes a 3.9).
 
 All coursework except for the final exam have mechanisms for demonstrating improvement. Learning in this course involves feedback loops where you try something, get feedback, and then try again. Grades are based on what you eventually learn through this process. Each homework assignment has a single resubmission period for students to improve their work.
+
+All suspected violations of course policies on academic honesty will be reported to [Community Standards & Student Conduct](https://www.washington.edu/cssc/) (CSSC) for formal investigation. Any work found to be in violation will receive no credit as we can only assess proficiency from your own honest work, and you forfeit the option to resubmit the particular assignment. If CSSC finds violations across multiple assignments, a failing grade (0.0) will be assigned.
 
 ## How do quests work?
 
