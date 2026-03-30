@@ -22,11 +22,9 @@ You will need to use the [quadratic equation](https://en.wikipedia.org/wiki/Quad
 
 Print the two possible values for $x$ such that they replace the `____` (blanks) in the template below **in ascending order**: the smaller root should appear before the larger root.
 
-```
-Problem 1 solution follows:
-Root 1: ____
-Root 2: ____
-```
+    Problem 1 solution follows:
+    Root 1: ____
+    Root 2: ____
 
 ## Problem 2: Reciprocals
 
@@ -34,18 +32,16 @@ Write code that uses a `for` loop to print the fractions: $$\frac{1}{2}, \frac{1
 
 As in problem 1, print values such that they replace the `____` (blanks) in the template below.
 
-```
-Problem 2 solution follows:
-1/2: ____
-1/3: ____
-1/4: ____
-1/5: ____
-1/6: ____
-1/7: ____
-1/8: ____
-1/9: ____
-1/10: ____
-```
+    Problem 2 solution follows:
+    1/2: ____
+    1/3: ____
+    1/4: ____
+    1/5: ____
+    1/6: ____
+    1/7: ____
+    1/8: ____
+    1/9: ____
+    1/10: ____
 
 ## Problem 3: Triangular Numbers
 
@@ -54,15 +50,13 @@ Write code that prints the 10th [triangular number](https://en.wikipedia.org/wik
 1. Using a `for` loop over a [`range`](http://docs.python.org/3.13/library/functions.html#func-range) to add the integers from 1 through 10.
 1. Using a mathematical formula: $$\frac{N(N + 1)}{2}$$
 
-```
-Problem 3 solution follows:
-Triangular number 10 via loop: ____
-Triangular number 10 via formula: ____
-```
+    Problem 3 solution follows:
+    Triangular number 10 via loop: ____
+    Triangular number 10 via formula: ____
 
 The `main.py` file includes some sample code that to help you get started. Replace the `...` (ellipsis) placeholders with your own code. The code should be able to correctly calculate the 11th, 12th, etc. triangular number by changing the variable `n` for any integer greater than 0.
 
-```
+```python
 n = 10
 triangular = 0
 for i in ...:
@@ -77,10 +71,8 @@ Write code that uses a `for` loop to print $10!$, the [factorial](https://en.wik
 
 As in problem 3, the code should correctly calculate any factorial just by changing a variable.
 
-```
-Problem 4 solution follows:
-10!: ____
-```
+    Problem 4 solution follows:
+    10!: ____
 
 ## Problem 5: Multiple Factorials
 
@@ -88,19 +80,17 @@ Write code that uses a **nested** `for` loop to print the first 10 factorials in
 
 The first line of code should begin by assigning a variable `num_lines` to `10`. Then the rest of the code should print the following output.
 
-```
-Problem 5 solution follows:
-10!: 3628800
-9!: 362880
-8!: 40320
-7!: 5040
-6!: 720
-5!: 120
-4!: 24
-3!: 6
-2!: 2
-1!: 1
-```
+    Problem 5 solution follows:
+    10!: 3628800
+    9!: 362880
+    8!: 40320
+    7!: 5040
+    6!: 720
+    5!: 120
+    4!: 24
+    3!: 6
+    2!: 2
+    1!: 1
 
 As in problems 3 and 4, the code should work for any number just by changing `num_lines`.
 
@@ -108,10 +98,8 @@ As in problems 3 and 4, the code should work for any number just by changing `nu
 
 Write code that uses a **nested** `for` loop to compute the value $$1 + \frac{1}{1!} + \frac{1}{2!} + \frac{1}{3!} + ... + \frac{1}{10!}$$
 
-```
-Problem 6 solution follows:
-e: ____
-```
+    Problem 6 solution follows:
+    e: ____
 
 > [!tip]
 > Start by copy-pasting your code for problem 5 into the space for problem 6. Rather than printing the factorials, we can add their reciprocals to a running total before printing the final result. Where in the code should we add 1 to the result?
