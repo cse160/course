@@ -448,3 +448,23 @@ sorted_by_letter_then_score = sorted(students, key=itemgetter(1, 2))
 print(sorted_by_letter_then_score)
 # Prints: [('john', 'A', 15), ('dave', 'B', 10), ('jane', 'B', 12)]
 ```
+
+## Classes
+
+[Classes](https://docs.python.org/3.13/tutorial/classes.html#a-first-look-at-classes) provide a way to bundle data and functionality together.
+
+```python
+class MyClass:
+    def __init__(self [, args]):
+        # Initializes the object
+
+    def method(self [, args]):
+        # Provides functionality
+```
+
+To use classes, create (instantiate) an object and call its methods. The `self` parameter is automatically and implicitly provided.
+
+```python
+my_object = MyClass()
+my_object.method([args])
+```
