@@ -322,14 +322,7 @@ When neither `keys()` nor `values()` is specified, we will iterate over the keys
 ```python
 for day in days_dict.keys(): # not necessary to specify .keys()
   print(day, days_dict[day])
-
-# Prints:
-# sa 22
-# m 17
-# tu 8
-# w 10
-# th 7
-# f 26
+# Prints on newlines: sa 22, m 17, tu 8, w 10, th 7, f 26
 ```
 
 Use the `values()` method to iterate through just the values of a dictionary.
@@ -337,14 +330,7 @@ Use the `values()` method to iterate through just the values of a dictionary.
 ```python
 for count in days_dict.values():
   print(count)
-
-# Prints:
-# 22
-# 17
-# 8
-# 10
-# 7
-# 26
+# Prints on newlines: 22, 17, 8, 10, 7, 26
 ```
 
 Use the `items()` method to iterate through key-value pairs at the same time.
@@ -352,14 +338,7 @@ Use the `items()` method to iterate through key-value pairs at the same time.
 ```python
 for day, count in days_dict.items():
   print(day, count)
-
-# Prints:
-# sa 22
-# m 17
-# tu 8
-# w 10
-# th 7
-# f 26
+# Prints on newlines: sa 22, m 17, tu 8, w 10, th 7, f 26
 ```
 
 ## Tuples
@@ -385,7 +364,6 @@ The [`list.sort`](https://docs.python.org/3.13/tutorial/datastructures.html#more
 
 ```python
 my_list = [100, 200, 0, -100]
-
 my_list.sort()             # my_list: [-100, 0, 100, 200]
 my_list.sort(reverse=True) # my_list: [200, 100, 0, -100]
 ```
@@ -398,12 +376,9 @@ The [`sorted`](https://docs.python.org/3.13/library/functions.html#sorted) funct
 from operator import itemgetter
 
 students = [("jane", "B"), ("john", "A"), ("dave", "B")]
-
 sorted_by_letter = sorted(students, key=itemgetter(1))
-
 print(students)
 # [('jane', 'B'), ('john', 'A'), ('dave', 'B')]
-
 print(sorted_by_letter)
 # [('john', 'A'), ('jane', 'B'), ('dave', 'B')]
 ```
@@ -420,12 +395,10 @@ from operator import itemgetter
 student_score = ("Robert", 8)
 get_name = itemgetter(0)  # get_name now refers to itemgetter(0)
 get_score = itemgetter(1) # get_score now refers to itemgetter(1)
-
 name = get_name(student_score)   # name is now 'Robert'
 score = get_score(student_score) # score is now 8
 
 student_scores = [("Robert", 8), ("Alice", 9), ("Tina", 7)]
-
 # sort the list of student scores by student name
 sorted_by_name = sorted(student_scores, key=get_name)
 print(sorted_by_name)
