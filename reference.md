@@ -22,7 +22,7 @@ elif condition2:
 elif condition3:
     print("elif condition3 was True")
 else:
-    print("elif condition3 was True")
+    print("elif condition3 was False")
 ```
 
 ## Loops
