@@ -17,7 +17,7 @@ If I'm not working on this class, you can probably find me looking around for tr
 Hi! I'm Brianna and I'm an undergrad majoring in Computer Engineering. Outside of school I enjoy skiing, surfing, hiking, and spending time with my family and friends. Let me know if you have any hike recommendations! Looking forward to helping you all with CSE 160 this quarter!
 ```
 
-```{card} ![Headshot of Katie Gower](images/katie-gower.webp)
+```{card} ![Headshot of Katie Gower. She is a white woman with brown hair. She is indoors and smiling slightly.](images/katie-gower.webp)
 :header: **Katie Gower** (she/her)
 :footer: Office Hours: Fri 2:30 — 4:20 PM
 
