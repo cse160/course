@@ -10,7 +10,7 @@ If I'm not working on this class, you can probably find me looking around for tr
 
 ## Section AB
 
-```{card} ![Headshot of Brianna Ong](images/brianna-ong.webp)
+```{card} ![Headshot of Brianna smiling and wearing a denim jacket](images/brianna-ong.webp)
 :header: **Brianna Ong** (she/her)
 :footer: Office Hours: Mon 9:30 – 11:20 AM
 
