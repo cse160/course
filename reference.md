@@ -136,6 +136,14 @@ The `append` method adds a `val` to the end of `my_list`.
 my_list.append(val)
 ```
 
+### `extend` method
+
+The `extend` method adds all the elements from `sequence` to the end of `my_list`.
+
+```python
+my_list.extend(sequence)
+```
+
 ## Sets
 
 [Sets](https://docs.python.org/3.13/tutorial/datastructures.html#sets) are a useful alternative to a list when you need an unordered collection of unique elements.
