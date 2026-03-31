@@ -95,7 +95,7 @@ The `in` operator evaluates to `True` if the `val` is in `my_list`, and `False` 
 contains = val in my_list
 ```
 
-### `index` method
+### Methods
 
 The `index` method returns the index of the first occurrence of `val` in `my_list`. It will raise an error if `val` is not in `my_list`.
 
@@ -103,23 +103,17 @@ The `index` method returns the index of the first occurrence of `val` in `my_lis
 i = my_list.index(val)
 ```
 
-### `count` method
-
 The `count` method returns the number of times a `val` appears in `my_list`.
 
 ```python
 num_vals = my_list.count(val)
 ```
 
-### `remove` method
-
 The `remove` method removes the first occurrence of a `val` from `my_list`.
 
 ```python
 my_list.remove(val)
 ```
-
-### `pop` method
 
 The `pop` method removes and returns the `i`-th element from `my_list`. If `i` is not given, then it will remove and return the last element by default.
 
@@ -128,23 +122,17 @@ val = my_list.pop(i)
 last = my_list.pop()
 ```
 
-### `append` method
-
 The `append` method adds a `val` to the end of `my_list`.
 
 ```python
 my_list.append(val)
 ```
 
-### `insert` method
-
 The `insert` method adds a `val` at index `i` in `my_list`.
 
 ```python
 my_list.insert(i, val)
 ```
-
-### `extend` method
 
 The `extend` method adds all the elements from `sequence` to the end of `my_list`.
 
