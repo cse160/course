@@ -81,10 +81,10 @@ my_list[1:3] = ["at index 1", "at index 2"]
 
 ### Slicing
 
-Slicing create a new list from a range (two indices) of elements in the original list. The `start` index is inclusive while the `end` index is exclusive.
+Slicing create a new list from a range of elements in the original list. The `start` index is inclusive while the `end` index is exclusive.
 
 ```python
-new_list = original_list[start : end]
+new_list = original_list[start:end:step]
 ```
 
 ### `in` operator
