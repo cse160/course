@@ -43,7 +43,7 @@ Im a graduating PhD student in CSE working in molecular computing. Coming from a
 
 ## Section AD
 
-```{card} ![Headshot of Arona Cho](images/arona-cho.webp)
+```{card} ![Arona Cho happily smiling at Pike Place Market](images/arona-cho.webp)
 :header: **Arona Cho** (she/her)
 :footer: Office Hours: Tue 12:30 – 2:20 PM
 :url: https://www.linkedin.com/in/aronacho/
@@ -61,7 +61,7 @@ Hi all! I'm Asmi, and I'm a senior doing a double degree in Informatics and Poli
 
 ## Section AE
 
-```{card} ![Headshot of Arona Cho](images/arona-cho.webp)
+```{card} ![Arona Cho happily smiling at Pike Place Market](images/arona-cho.webp)
 :header: **Arona Cho** (she/her)
 :footer: Office Hours: Tue 12:30 – 2:20 PM
 :url: https://www.linkedin.com/in/aronacho/
