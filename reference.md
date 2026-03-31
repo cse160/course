@@ -121,9 +121,10 @@ my_list.remove(val)
 
 ### `pop` method
 
-The `pop` method removes and returns the last element from `my_list`.
+The `pop` method removes and returns the `i`-th element from `my_list`. If `i` is not given, then it will remove and return the last element by default.
 
 ```python
+val = my_list.pop(i)
 last = my_list.pop()
 ```
 
