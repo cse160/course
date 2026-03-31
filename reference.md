@@ -136,6 +136,14 @@ The `append` method adds a `val` to the end of `my_list`.
 my_list.append(val)
 ```
 
+### `insert` method
+
+The `insert` method adds a `val` at index `i` in `my_list`.
+
+```python
+my_list.insert(i, val)
+```
+
 ### `extend` method
 
 The `extend` method adds all the elements from `sequence` to the end of `my_list`.
