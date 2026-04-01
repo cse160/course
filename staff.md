@@ -26,7 +26,7 @@ Hi, I'm Katie, and I'm a junior studying statistics. This is my third time TAing
 
 ## Section AC
 
-```{card} ![Headshot of Suhas Kannam smiling with Dubs, the husky mascot of UW](images/suhas-kannam.webp)
+```{card} ![Suhas Kannam smiling with Dubs, the husky mascot of UW](images/suhas-kannam.webp)
 :header: **Suhas Kannam** (he/him)
 :footer: Office Hours: Mon 11:30 AM – 1:20 PM
 
@@ -122,7 +122,7 @@ Hello! I'm Sara, a senior majoring in Informatics with a minor in Dance. I'm obs
 I am a PhD student working in machine learning and robotics. I have a background in control theory and mathematics from a past life. In typical Seattle fashion, I love climbing, mountaineering, skiing, and... that Phil Collins drum solo. You know the one.
 ```
 
-```{card} ![Headshot of Suhas Kannam smiling with Dubs, the husky mascot of UW](images/suhas-kannam.webp)
+```{card} ![Suhas Kannam smiling with Dubs, the husky mascot of UW](images/suhas-kannam.webp)
 :header: **Suhas Kannam** (he/him)
 :footer: Office Hours: Mon 11:30 AM – 1:20 PM
 
