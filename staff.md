@@ -96,12 +96,12 @@ Im a graduating PhD student in CSE working in molecular computing. Coming from a
 
 ## Section AG
 
-```{card} ![Headshot of Rosario Scalise](images/rosario-scalise.webp)
-:header: **Rosario Scalise**
+```{card} ![Rosario trying not to be scared of a bee while on a hanging belay at Mt. Erie near Anacortes, WA.](images/rosario-scalise.webp)
+:header: **Rosario Scalise** (he/him)
 :footer: Office Hours: Wed 2:30 – 4:20 PM, Thu 2:30 — 4:20 PM
-:url: https://www.linkedin.com/in/rosari.ooo/
+:url: https://rosari.ooo
 
-I love climbing, mountaineering, skiing, and... that Phil Colins drum solo. You know the one.
+I am a PhD student working in machine learning and robotics. I have a background in control theory and mathematics from a past life. In typical Seattle fashion, I love climbing, mountaineering, skiing, and... that Phil Collins drum solo. You know the one.
 ```
 
 ```{card} ![Headshot of Sara Duan](images/sara-duan.webp)
@@ -114,12 +114,12 @@ Hello! I'm Sara, a senior majoring in Informatics with a minor in Dance. I'm obs
 
 ## Section AH
 
-```{card} ![Headshot of Rosario Scalise](images/rosario-scalise.webp)
-:header: **Rosario Scalise**
+```{card} ![Rosario trying not to be scared of a bee while on a hanging belay at Mt. Erie near Anacortes, WA.](images/rosario-scalise.webp)
+:header: **Rosario Scalise** (he/him)
 :footer: Office Hours: Wed 2:30 – 4:20 PM, Thu 2:30 — 4:20 PM
-:url: https://www.linkedin.com/in/rosari.ooo/
+:url: https://rosari.ooo
 
-I love climbing, mountaineering, skiing, and... that Phil Colins drum solo. You know the one.
+I am a PhD student working in machine learning and robotics. I have a background in control theory and mathematics from a past life. In typical Seattle fashion, I love climbing, mountaineering, skiing, and... that Phil Collins drum solo. You know the one.
 ```
 
 ```{card} ![Headshot of Suhas Kannam](images/suhas-kannam.webp)
