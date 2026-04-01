@@ -118,6 +118,8 @@ Then, review our [style guide](../../style-guide.md), paying particular attentio
   - [Blank lines](../../style-guide.md/#blank-lines)
   - [Between operators](../../style-guide.md/#between-operators)
 - [Line length](../../style-guide.md/#line-length)
+- Program design
+  - [Fit and finish](../../style-guide.md#fit-and-finish)
 
 ## Submission
 
