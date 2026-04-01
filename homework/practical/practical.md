@@ -56,13 +56,9 @@ Write code that prints the 10th [triangular number](https://en.wikipedia.org/wik
 
 The `main.py` file includes some sample code that to help you get started. Replace the `...` (ellipsis) placeholders with your own code. The code should be able to correctly calculate the 11th, 12th, etc. triangular number by changing the variable `n` for any integer greater than 0.
 
-```python
-n = 10
-triangular = 0
-for i in ...:
-    triangular = ...
-print("Triangular number", n, "via loop:", triangular)
-print("Triangular number", n, "via formula:", n * (n + 1) / 2)
+```{literalinclude} main.py
+:start-at: n = 10
+:end-at: print("Triangular number", n, "via formula:", n * (n + 1) / 2)
 ```
 
 ## Problem 4: Factorial
