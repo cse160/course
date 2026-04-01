@@ -118,9 +118,6 @@ Then, review our [style guide](../../style-guide.md), paying particular attentio
   - [Blank lines](../../style-guide.md/#blank-lines)
   - [Between operators](../../style-guide.md/#between-operators)
 - [Line length](../../style-guide.md/#line-length)
-- [Documentation](../../style-guide.md/#documentation)
-
-For documentation, remember to **write line comments to describe each problem**. We'll learn more effective documentation and program organization practices later: for now, the goal is just to get in the habit of writing documentation.
 
 ## Submission
 
