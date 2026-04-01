@@ -43,7 +43,7 @@ As in problem 1, print values such that they replace the `____` (blanks) in the 
     1/9: ____
     1/10: ____
 
-## Problem 3: Triangular Numbers
+## Problem 3: Triangular numbers
 
 Write code that prints the 10th [triangular number](https://en.wikipedia.org/wiki/Triangular_number) in two ways:
 
@@ -70,7 +70,7 @@ As in problem 3, the code should correctly calculate any factorial just by chang
     Problem 4 solution follows:
     10!: ____
 
-## Problem 5: Multiple Factorials
+## Problem 5: Multiple factorials
 
 Write code that uses a **nested** `for` loop to print the first 10 factorials in descending order: $10!, 9!, ..., 1!$
 
@@ -102,7 +102,7 @@ Write code that uses a **nested** `for` loop to compute the value $$1 + \frac{1}
 
 As in problems 3 through 5, the code should work for any number of fractions to add.
 
-## Code Quality
+## Code quality
 
 Run our linter (automated code style checker) in the Python console with the expression `!flake8`. Edit the file and save your changes after addressing all reported issues. A successful `!flake8` run will print nothing when there are no linting issues to report.
 
