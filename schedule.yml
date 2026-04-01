@@ -41,6 +41,7 @@
           name: Functions (continued)
         - type: Homework
           name: DNA Analysis
+          href: /dna-analysis
 - name: Basic Data Structures
   days:
     - date: Mon, Apr 13
