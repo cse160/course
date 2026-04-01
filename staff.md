@@ -1,6 +1,6 @@
 # Staff
 
-```{card} ![Headshot of Kevin Lin](images/kevin-lin.webp)
+```{card} ![Kevin Lin wearing a huge smile](images/kevin-lin.webp)
 :header: **Kevin Lin** (he/him)
 :footer: Office Hours: Tue 2:30 – 4:20 PM
 :url: https://kevinl.info/
