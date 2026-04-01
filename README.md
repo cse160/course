@@ -58,7 +58,7 @@ In groups during class and quiz section, collaborate on the in-class guided prac
 : In PollEverywhere during lecture, **correctly answer all questions**.
 : During section, participate in peer discussions to receive credit.
 
-On your own after class, apply what you learned in the homework and project.
+On your own after class, apply concepts in the programming practice and homework.
 : In Gradescope, submit **Programming Practice** to apply your learning.
 : In Gradescope, submit your completed **Homework** assignment for the week.
 
@@ -76,7 +76,7 @@ Encouraged
 : Talking with other students without sharing code or details to reproduce code.
 
 Permitted with caution
-: Working alongside one or more other people on a homework or project.
+: Working alongside other people on a homework or programming practice.
 : Sharing or generating small snippets of code not specific to any assignment part.
 
 Prohibited
