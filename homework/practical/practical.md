@@ -54,7 +54,7 @@ Write code that prints the 10th [triangular number](https://en.wikipedia.org/wik
     Triangular number 10 via loop: ____
     Triangular number 10 via formula: ____
 
-The `main.py` file includes some sample code that to help you get started. Replace the `...` (ellipsis) placeholders with your own code. The code should be able to correctly calculate the 11th, 12th, etc. triangular number by changing the variable `n` for any integer greater than 0.
+The `main.py` file includes some sample code that to help you get started. Replace the `...` (ellipsis) placeholders with your own code. The code should calculate the 11th, 12th, etc. triangular number by changing the variable `n` for any integer greater than 0.
 
 ```{literalinclude} main.py
 :start-at: n = 10
