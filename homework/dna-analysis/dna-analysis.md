@@ -5,7 +5,7 @@ In this homework, we will write a program to analyze data in a real-world scenar
 By the end of this assignment, students will feel more comfortable:
 
 1. Writing Python code using loops, conditionals, functions, and string manipulation.
-1. Running Python programs with command line arguments from the terminal in JupyterHub.
+1. Running Python programs with command line arguments from the JupyterHub console.
 1. Interpreting program specifications involving a complicated real-world scenario.
 
 ## Background
