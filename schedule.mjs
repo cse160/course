@@ -24,6 +24,7 @@ function tableRow(cells) {
 const classes = {
   lecture: { background: '#4E66F6', borderRadius: 8, color: 'white', padding: 5 },
   section: { background: '#736EAF', borderRadius: 8, color: 'white', padding: 5 },
+  practice: { background: '#D43B21', borderRadius: 8, color: 'white', padding: 5 },
   homework: { background: '#D43B21', borderRadius: 8, color: 'white', padding: 5 },
   quest: { background: '#B83BC0', borderRadius: 8, color: 'white', padding: 5 },
   exam: { background: '#B83BC0', borderRadius: 8, color: 'white', padding: 5 },
