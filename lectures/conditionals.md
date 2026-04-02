@@ -20,7 +20,7 @@ footwear # What's my footwear for today?
 ```
 
 > [!note]
-> [Indented code](../style-guide.md#indentation) following the `if` statement only runs when the condition is true!
+> [Indented code](../style-guide.md#indentation) following the `if` statement only runs when the condition is true! The `#` (hash) indicates the start of an **inline comment**: all text that appears after the `#` will be ignored by Python.
 
 ## Booleans
 
