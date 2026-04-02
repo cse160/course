@@ -1,2 +1,4 @@
 [flake8]
+exclude =
+    practice
 max-line-length = 100
