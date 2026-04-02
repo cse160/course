@@ -14,6 +14,11 @@
       items:
         - type: Section
           name: Python
+        - type: Practice
+          name: Programming Practice 1
+          auxil:
+            id: due Apr 7
+            href: https://www.gradescope.com/courses/1287756
         - type: Homework
           name: Practical
           href: /practical
@@ -30,6 +35,11 @@
         - type: Lecture
           name: Nested Loops
           href: /nested-loops
+        - type: Practice
+          name: Programming Practice 2
+          auxil:
+            id: due Apr 14
+            href: https://www.gradescope.com/courses/1287756
     - date: Wed, Apr 8
       items:
         - type: Lecture
@@ -54,6 +64,11 @@
       items:
         - type: Lecture
           name: Lists
+        - type: Practice
+          name: Programming Practice 3
+          auxil:
+            id: due Apr 21
+            href: https://www.gradescope.com/courses/1287756
     - date: Wed, Apr 15
       items:
         - type: Lecture
@@ -70,6 +85,11 @@
       items:
         - type: Lecture
           name: File Processing
+        - type: Practice
+          name: Programming Practice 4
+          auxil:
+            id: due Apr 28
+            href: https://www.gradescope.com/courses/1287756
     - date: Wed, Apr 22
       items:
         - type: Lecture
@@ -93,6 +113,11 @@
       items:
         - type: Lecture
           name: Nested Dictionaries
+        - type: Practice
+          name: Programming Practice 5
+          auxil:
+            id: due May 5
+            href: https://www.gradescope.com/courses/1287756
     - date: Wed, Apr 29
       items:
         - type: Lecture
@@ -109,6 +134,11 @@
       items:
         - type: Lecture
           name: Tuples
+        - type: Practice
+          name: Programming Practice 6
+          auxil:
+            id: due May 12
+            href: https://www.gradescope.com/courses/1287756
     - date: Wed, May 6
       items:
         - type: Lecture
@@ -132,6 +162,11 @@
       items:
         - type: Lecture
           name: Objects
+        - type: Practice
+          name: Programming Practice 7
+          auxil:
+            id: due May 19
+            href: https://www.gradescope.com/courses/1287756
     - date: Wed, May 13
       items:
         - type: Lecture
@@ -153,6 +188,11 @@
       items:
         - type: Lecture
           name: Visualization
+        - type: Practice
+          name: Programming Practice 8
+          auxil:
+            id: due May 26
+            href: https://www.gradescope.com/courses/1287756
     - date: Wed, May 20
       items:
         - type: Lecture
