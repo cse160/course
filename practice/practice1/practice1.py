@@ -27,25 +27,24 @@ print("~~~~~~~~~~~")
 
 # ~~~ Begin Problem 2 ~~~
 """
-Use an assignment statement to define a variable named ruths_number with a numerical value of your
-choosing. Then, define a variable named james_number and set it equal to 18.
+Fill-in the missing conditions below to check that rating is a number between 0 and 10.
 
-Using these two variables, write a boolean expression to evaluate whether ruths_number is greater
-than james_number. Print out the value of the expression.
+- If the number is above 10, print "Error: rating above 10!".
+- If the number is below 0, print "Error: rating below 0!".
+- Otherwise, print "Success: valid rating entered!".
 
-Finally, write a boolean expression to evaluate whether EITHER ruths_number or james_number is
-negative. Print out the value of the expression.
-
-REMEMBER: Your code should work regardless of the numerical value of ruths_number and james_number.
+Replace the ... (ellipsis) in the code below.
 """
 
 # Write your code for Problem 2 here!
+rating = -1
+if ...:
+    print("Error: rating above 10!")
+elif ...:
+    print("Error: rating below 0!")
+else:
+    print("Success: valid rating entered!")
 
-
-
-# DON'T EDIT THE CODE BELOW
-assert "ruths_number" in locals(), "Make sure to define a variable called ruths_number"
-assert "james_number" in locals(), "Make sure to define a variable called james_number"
 
 # ~~~ End Problem 2 ~~~
 print("~~~~~~~~~~~")
