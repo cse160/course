@@ -15,8 +15,11 @@
         - type: Section
           name: Python
         - type: Homework
-          name: Practical released, due April 10th
+          name: Practical
           href: /practical
+          auxil:
+            id: due Apr 10
+            href: https://www.gradescope.com/courses/1287756
     - date: Fri, Apr 3
       items:
         - type: Lecture
@@ -36,8 +39,11 @@
         - type: Section
           name: Conditionals and Loops
         - type: Homework
-          name: DNA Analysis released, due April 17th
+          name: DNA Analysis
           href: /dna-analysis
+          auxil:
+            id: due Apr 17
+            href: https://www.gradescope.com/courses/1287756
     - date: Fri, Apr 10
       items:
         - type: Lecture
@@ -73,7 +79,10 @@
         - type: Section
           name: Files
         - type: Homework
-          name: Blurring released, due May 8th
+          name: Blurring
+          auxil:
+            id: due May 8
+            href: https://www.gradescope.com/courses/1287756
     - date: Fri, Apr 24
       items:
         - type: Lecture
@@ -109,7 +118,10 @@
         - type: Section
           name: Tuples and Sorting
         - type: Homework
-          name: Clustering released, due May 15th
+          name: Clustering
+          auxil:
+            id: due May 15
+            href: https://www.gradescope.com/courses/1287756
     - date: Fri, May 8
       items:
         - type: Lecture
@@ -129,7 +141,10 @@
         - type: Section
           name: CSVs and Objects
         - type: Homework
-          name: Fishing Analysis released, due May 29th
+          name: Fishing Analysis
+          auxil:
+            id: due May 29
+            href: https://www.gradescope.com/courses/1287756
     - date: Fri, May 15
       items:
         - type: Quest
