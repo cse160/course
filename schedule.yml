@@ -14,6 +14,9 @@
       items:
         - type: Section
           name: Python
+        - type: Homework
+          name: Practical released, due April 10th
+          href: /practical
     - date: Fri, Apr 3
       items:
         - type: Lecture
@@ -24,9 +27,6 @@
         - type: Lecture
           name: Nested Loops
           href: /nested-loops
-        - type: Homework
-          name: Practical
-          href: /practical
     - date: Wed, Apr 8
       items:
         - type: Lecture
@@ -35,13 +35,13 @@
       items:
         - type: Section
           name: Conditionals and Loops
+        - type: Homework
+          name: DNA Analysis released, due April 17th
+          href: /dna-analysis
     - date: Fri, Apr 10
       items:
         - type: Lecture
           name: Functions (continued)
-        - type: Homework
-          name: DNA Analysis
-          href: /dna-analysis
 - name: Basic Data Structures
   days:
     - date: Mon, Apr 13
@@ -68,12 +68,12 @@
       items:
         - type: Lecture
           name: File Processing (continued)
-        - type: Homework
-          name: Blurring
     - date: Thu, Apr 23
       items:
         - type: Section
           name: Files
+        - type: Homework
+          name: Blurring released, due May 8th
     - date: Fri, Apr 24
       items:
         - type: Lecture
@@ -100,8 +100,6 @@
       items:
         - type: Lecture
           name: Tuples
-        - type: Homework
-          name: Clustering
     - date: Wed, May 6
       items:
         - type: Lecture
@@ -110,6 +108,8 @@
       items:
         - type: Section
           name: Tuples and Sorting
+        - type: Homework
+          name: Clustering released, due May 15th
     - date: Fri, May 8
       items:
         - type: Lecture
@@ -124,12 +124,12 @@
       items:
         - type: Lecture
           name: Objects (continued)
-        - type: Homework
-          name: Fishing Analysis
     - date: Thu, May 14
       items:
         - type: Section
           name: CSVs and Objects
+        - type: Homework
+          name: Fishing Analysis released, due May 29th
     - date: Fri, May 15
       items:
         - type: Quest
