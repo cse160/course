@@ -12,25 +12,28 @@ downloads:
 
 We've now seen a few ways to use loops.
 
-1. ```python
-   for _ in range(6):
-       print("Hi!")
-   ```
-1. ```python
-   for i in range(5, 0, -1):
-       print(i)
-   ```
-1. ```python
-   for x in ["Hi", "Ciao", "Hola"]:
-       print(x)
-   ```
-1. ```python
-   for c in "Go Huskies!":
-       print(c)
-   ```
+```python
+for _ in range(6):
+    print("Hi!")
+```
 
 > [!note]
-> In the first example, `_` (underscore) is a valid variable name! We tend to use it to indicate that the variable is a placeholder that won't be useful.
+> `_` (underscore) is a valid variable name! We tend to use it to indicate that the variable is a placeholder that will not be used later.
+
+```python
+for i in range(5, 0, -1):
+    print(i)
+```
+
+```python
+for x in ["Hi", "Ciao", "Hola"]:
+    print(x)
+```
+
+```python
+for c in "Go Huskies!":
+    print(c)
+```
 
 What if we wanted to keep track of two counts at the same time? The solution is to put a `for` loop inside another `for` loop.
 
