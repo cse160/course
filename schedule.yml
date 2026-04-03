@@ -44,6 +44,7 @@
       items:
         - type: Lecture
           name: Functions
+          href: /functions
     - date: Thu, Apr 9
       items:
         - type: Section
