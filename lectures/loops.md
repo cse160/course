@@ -43,11 +43,11 @@ Let's break down the components of this statement:
 
 Which `range` call will produce the numbers 10, 20, 30, 40, 50, 60, 70, 80, 90, 100?
 
-1. `range(100)`
-1. `range(10, 100)`
-1. `range(10, 110)`
-1. `range(10, 100, 10)`
-1. `range(10, 110, 10)`
+    range(100)
+    range(10, 100)
+    range(10, 110)
+    range(10, 100, 10)
+    range(10, 110, 10)
 
 ## Practice: Rangefinding
 
