@@ -76,7 +76,6 @@ Encouraged
 : Talking with other students without sharing code or details to reproduce code.
 
 Permitted with caution
-: Working alongside other people on a homework or programming practice.
 : Sharing or generating small snippets of code not specific to any assignment part.
 
 Prohibited
