@@ -202,10 +202,9 @@ Then, review our [style guide](../../style-guide.md), paying particular attentio
 
 ## Collaboration
 
-> [!warning]
-> If you discuss an assignment with one or more classmates, **you must specify with whom you collaborated in the header comment in your submission**. You may discuss with as many classmates as you like, but you must cite all of them in your work. Note that you may not collaborate in a way that is prohibited, even if you cite the collaboration.
+If you discuss an assignment with one or more classmates, **you must specify with whom you collaborated in a comment at the bottom of your submission**. You may discuss with as many classmates as you like, but you must cite all of them in your work. Note that you may not collaborate in a way that is prohibited, even if you cite the collaboration.
 
-At the bottom of your `answers.txt` file under "Collaboration", state which students or other people (besides the course staff) helped you with the assignment, or that no one did.
+**At the bottom of both your `dna_analysis.py` and `answers.txt` files**, state which students or other people (besides the course staff) helped you with the assignment, or that no one did.
 
 ## Submission
 
