@@ -14,6 +14,7 @@
       items:
         - type: Section
           name: Python
+          href: https://docs.google.com/presentation/d/1RoMSyJWWkLuqbJFwIXMUC2gxDWvHLZam/edit?usp=sharing&ouid=105466315384079082532&rtpof=true&sd=true
         - type: Practice
           name: Programming Practice 1
           auxil:
