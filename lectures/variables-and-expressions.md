@@ -26,6 +26,29 @@ The process of answering these questions is called **evaluation**. Python evalua
 
     (12 - 2) / 5 * 3
 
+## Numbers and text
+
+Every value has a type. **Types** represent specific forms of data with specific ways for using and combining them.
+
+`100` and `60` are examples of the `int` data type used to represent integers. We can add two `int` values using the `+` operator. The result of dividing two `int` values can be an `int` or a `float` (decimals, or real numbers).
+
+    100 + 60
+    100 / 60
+
+What about text? The `str` type represents text enclosed by either `'` (single quotes) or `"` (double quotes). Adding two `str` values with the `+` operator concatenates the strings.
+
+    "cse160"
+    "cse" + '160'
+    "100" + 60
+    "" # empty string
+
+> [!note]
+> The `#` (hash) indicates the rest of the line is a comment not for Python to run.
+
+What happens if we try to add a `str` and an `int`?
+
+    "cse" + 160
+
 ## Variables
 
 A **variable** is a container for storing values. We assign values to variables using **assignment statements**.
@@ -78,22 +101,3 @@ a = a + 1
 b = b - 1
 c = c + a
 ```
-
-## Numbers and text
-
-Every value has a type. **Types** represent specific forms of data with specific ways for using and combining them.
-
-`100` and `60` are examples of the `int` data type used to represent integers. We can add two `int` values using the `+` operator. The result of dividing two `int` values can be an `int` or a `float` (decimals, or real numbers).
-
-    100 + 60
-    100 / 60
-
-What about text? The `str` type represents text enclosed by either `'` (single quotes) or `"` (double quotes). Adding two `str` values with the `+` operator concatenates the strings.
-
-    "cse160"
-    "cse" + '160'
-    "100" + 60
-    "" # empty string
-
-> [!note]
-> The `#` (hash) indicates the rest of the line is a comment not for Python to run.
