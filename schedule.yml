@@ -58,7 +58,7 @@
     - date: Fri, Apr 10
       items:
         - type: Lecture
-          name: Functions (continued)
+          name: More Functions
 - name: Basic Data Structures
   days:
     - date: Mon, Apr 13
@@ -94,7 +94,7 @@
     - date: Wed, Apr 22
       items:
         - type: Lecture
-          name: File Processing (continued)
+          name: More File Processing
     - date: Thu, Apr 23
       items:
         - type: Section
@@ -171,7 +171,7 @@
     - date: Wed, May 13
       items:
         - type: Lecture
-          name: Objects (continued)
+          name: More Objects
     - date: Thu, May 14
       items:
         - type: Section
@@ -197,7 +197,7 @@
     - date: Wed, May 20
       items:
         - type: Lecture
-          name: Visualization (continued)
+          name: More Visualization
     - date: Thu, May 21
       items:
         - type: Section
@@ -223,7 +223,7 @@
     - date: Mon, Jun 1
       items:
         - type: Lecture
-          name: Data Frames (continued)
+          name: More Data Frames
     - date: Wed, Jun 3
       items:
         - type: Lecture
