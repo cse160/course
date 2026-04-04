@@ -98,7 +98,7 @@ Write code that uses a `for` loop to print the numbers 1 through 10 squared:
     49
     64
     81
-    10
+    100
 
 As an extra challenge, modify your code so that it does not need to use the `*` multiplication operator. Do you notice any patterns between adjacent numbers?
 
