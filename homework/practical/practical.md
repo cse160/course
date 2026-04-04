@@ -50,16 +50,17 @@ Write code that prints the 10th [triangular number](https://en.wikipedia.org/wik
 1. Using a `for` loop over a [`range`](http://docs.python.org/3.13/library/functions.html#func-range) to add the integers from 1 through 10.
 1. Using a mathematical formula: $$\frac{N(N + 1)}{2}$$
 
-    Problem 3 solution follows:
-    Triangular number 10 via loop: ____
-    Triangular number 10 via formula: ____
-
 The `main.py` file includes some sample code that to help you get started. Replace the `...` (ellipsis) placeholders with your own code. The code should calculate the 11th, 12th, etc. triangular number by changing the variable `n` for any integer greater than 0.
 
 ```{literalinclude} main.py
 :start-at: n = 10
 :end-at: print("Triangular number", n, "via formula:", n * (n + 1) / 2)
 ```
+As in problem 1 and 2, print values such that they replace the `____` (blanks) in the template.
+
+    Problem 3 solution follows:
+    Triangular number 10 via loop: ____
+    Triangular number 10 via formula: ____
 
 ## Problem 4: Factorial
 
