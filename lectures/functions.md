@@ -62,6 +62,20 @@ def print_hello():
 print(print_hello())
 ```
 
+## Practice: Divisibility
+
+What would Python display?
+
+```python
+def is_divisible(a, b):
+    # What is the remainder after dividing a by b?
+    if a % b == 0:
+        return True
+    return False
+
+print(is_divisible(9, 3))
+```
+
 ## Example: Exclaim
 
 ```python
@@ -115,7 +129,6 @@ def is_prime(n):
         return False
 
     for i in range(2, n):
-        # What is the remainder of dividing n by i?
         if n % i == 0:
             return False
 
@@ -141,7 +154,6 @@ def is_prime(n):
         return False
 
     for i in range(2, n):
-        # What is the remainder of dividing n by i?
         if n % i == 0:
             return False
 
