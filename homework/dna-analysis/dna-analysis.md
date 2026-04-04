@@ -19,8 +19,7 @@ DNA is made up of a sequence of nucleotides. Each nucleotide is adenine (A), cyt
 Here are the first eight lines of one of our sample DNA data files:
 
 ```{literalinclude} data/sample_6.fastq
-:start-at: @SOLEXA-1GA-2_2_FC30DNN:1:2:574:1722
-:end-before: @SOLEXA-1GA-2_2_FC30DNN:1:2:477:1880
+:lines: 1-8
 ```
 
 **The nucleotide data is in the second line, the sixth line, the tenth line, etc.** To calculate GC content, you will be looking for the percentage of letters appearing on these lines that are G or C. Your program will not use the rest of the file, which provides information about the sequencer and the sequencing process that created the nucleotide data.
