@@ -86,7 +86,7 @@ exclaim("Hi")
 exclaim("Yayy")
 ```
 
-## Example: Area of a Circle
+## Example: Area of a circle
 
 Functions can also have default arguments. If not specified by a function call, the parameter will use the default value.
 
