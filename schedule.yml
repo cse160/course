@@ -59,6 +59,7 @@
       items:
         - type: Lecture
           name: More Functions
+          href: /more-functions
 - name: Basic Data Structures
   days:
     - date: Mon, Apr 13
