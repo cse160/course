@@ -104,7 +104,7 @@ Im a graduating PhD student in CSE working in molecular computing. Coming from a
 I am a PhD student working in machine learning and robotics. I have a background in control theory and mathematics from a past life. In typical Seattle fashion, I love climbing, mountaineering, skiing, and... that Phil Collins drum solo. You know the one.
 ```
 
-```{card} ![Headshot of Sara Duan](images/sara-duan.webp)
+```{card} ![Sara smiling softly at Balboa Park in San Diego, CA](images/sara-duan.webp)
 :header: **Sara Duan** (she/her)
 :footer: Office Hours: Wed 4:30 — 6:20 PM
 :url: https://www.linkedin.com/in/saraduan/
