@@ -1,0 +1,12 @@
+These questions are for Part 2 and assume that you've finished implementing and running analysis.py.
+
+1. What happened to all the centroids? Why are there fewer than the 10 initial centroids?
+Answer:
+
+
+
+2. What's the accuracy of the algorithm for the MNIST dataset? By looking at the
+centroids, which letters are easier to be distinguished by the algorithm,
+and which are harder?
+Answer:
+
