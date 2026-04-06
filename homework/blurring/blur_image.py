@@ -4,8 +4,7 @@
 # Description:
 
 import os
-from utils import (read_image, write_image, parse_args,
-                   csv_line_to_pixels, write_grid)
+from utils import read_image, write_image, parse_args, csv_line_to_pixels, write_grid  # noqa: F401
 
 
 def get_pixel_at(pixel_grid, i, j):
@@ -26,9 +25,7 @@ def read_grid(file_path):
 
 def main():
     input_file = parse_args()
-
     path_without_extension, extension = os.path.splitext(input_file)
-    input_filename = os.path.basename(path_without_extension)
 
     if extension == ".csv":
         input_grid = read_grid(input_file)
@@ -41,8 +38,9 @@ def main():
     # Blur the image
     ...  # REPLACE THIS LINE WITH YOUR CODE TO CALL THE BLUR FUNCTION
 
-    output_image_filename = input_filename + '_blurry.png'
-    output_grid_filename = input_filename + '_blurry_grid.txt'
+    # input_filename = os.path.basename(path_without_extension)
+    # output_image_filename = input_filename + '_blurry.png'
+    # output_grid_filename = input_filename + '_blurry_grid.txt'
 
     # Write the blurred image and grid to files
     ...  # REPLACE THIS LINE WITH YOUR CODE TO WRITE THE BLURRED IMAGE
