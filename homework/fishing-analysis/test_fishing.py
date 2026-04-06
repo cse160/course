@@ -289,7 +289,7 @@ def stringio_to_fd(s):
     '''
     STUDENTS: You do not need to understand this function for the homework.
     ----------------------------------------
-    Convert a StringIO object to a file descriptor for testing purposes. This 
+    Convert a StringIO object to a file descriptor for testing purposes. This
     returns an object that can be passed to `open` or similar functions that
     expect a path to a file.
 
