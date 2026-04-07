@@ -81,7 +81,7 @@ Hi, I'm Arpan (arr-pin) and I'm a senior in the BS/MS program for ECE. This will
 
 ```{card} ![Headshot of Cici Situ](images/cici-situ.webp)
 :header: **Cici Situ** (she/her)
-:footer: Office Hours: Tue 10:30 AM – 12:20 PM
+:footer: Office Hours: Tue 11:00 AM – 1:00 PM
 
 Hi y'all, this is Cici! I'm currently a junior majoring in Bioengineering (Data Science Option). This is my first quarter TA-ing CSE160, and I'm so excited to meet y'all. Outside of class, I enjoy baking, singing, listening to K-pop, and trying out new boba shops. If you have any questions or just wanna chat, feel free to reach out!
 ```
