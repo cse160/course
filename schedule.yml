@@ -17,6 +17,7 @@
           href: https://docs.google.com/presentation/d/1RoMSyJWWkLuqbJFwIXMUC2gxDWvHLZam/edit?usp=sharing&ouid=105466315384079082532&rtpof=true&sd=true
         - type: Practice
           name: Programming Practice 1
+          href: https://jupyter.rttl.uw.edu/2026-spring-cse-160-a/hub/user-redirect/lab/tree/COURSE_MATERIALS/practice
           auxil:
             id: due Apr 7
             href: https://www.gradescope.com/courses/1287756
@@ -38,6 +39,7 @@
           href: /nested-loops
         - type: Practice
           name: Programming Practice 2
+          href: https://jupyter.rttl.uw.edu/2026-spring-cse-160-a/hub/user-redirect/lab/tree/COURSE_MATERIALS/practice
           auxil:
             id: due Apr 14
             href: https://www.gradescope.com/courses/1287756
@@ -69,6 +71,7 @@
           name: Lists
         - type: Practice
           name: Programming Practice 3
+          href: https://jupyter.rttl.uw.edu/2026-spring-cse-160-a/hub/user-redirect/lab/tree/COURSE_MATERIALS/practice
           auxil:
             id: due Apr 21
             href: https://www.gradescope.com/courses/1287756
@@ -90,6 +93,7 @@
           name: File Processing
         - type: Practice
           name: Programming Practice 4
+          href: https://jupyter.rttl.uw.edu/2026-spring-cse-160-a/hub/user-redirect/lab/tree/COURSE_MATERIALS/practice
           auxil:
             id: due Apr 28
             href: https://www.gradescope.com/courses/1287756
@@ -118,6 +122,7 @@
           name: Nested Dictionaries
         - type: Practice
           name: Programming Practice 5
+          href: https://jupyter.rttl.uw.edu/2026-spring-cse-160-a/hub/user-redirect/lab/tree/COURSE_MATERIALS/practice
           auxil:
             id: due May 5
             href: https://www.gradescope.com/courses/1287756
@@ -139,6 +144,7 @@
           name: Tuples
         - type: Practice
           name: Programming Practice 6
+          href: https://jupyter.rttl.uw.edu/2026-spring-cse-160-a/hub/user-redirect/lab/tree/COURSE_MATERIALS/practice
           auxil:
             id: due May 12
             href: https://www.gradescope.com/courses/1287756
@@ -167,6 +173,7 @@
           name: Objects
         - type: Practice
           name: Programming Practice 7
+          href: https://jupyter.rttl.uw.edu/2026-spring-cse-160-a/hub/user-redirect/lab/tree/COURSE_MATERIALS/practice
           auxil:
             id: due May 19
             href: https://www.gradescope.com/courses/1287756
@@ -193,6 +200,7 @@
           name: Visualization
         - type: Practice
           name: Programming Practice 8
+          href: https://jupyter.rttl.uw.edu/2026-spring-cse-160-a/hub/user-redirect/lab/tree/COURSE_MATERIALS/practice
           auxil:
             id: due May 26
             href: https://www.gradescope.com/courses/1287756
