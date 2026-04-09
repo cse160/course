@@ -18,7 +18,7 @@ Variables allow us to assign values, conditionals allow us to shape control flow
 
 ```python
 def function_name(parameter):
-    # function body
+    # function body
 ```
 
 Key components of a function include:
@@ -35,10 +35,10 @@ To **call a function** (to use it), write its name followed by parentheses indic
 
 ```python
 def function_name(parameter):
-    # more function code belongs here
-    return value
+    # more function code belongs here
+    return value
 
-    print("Hey") # unreachable code
+    print("Hey") # unreachable code
 ```
 
 The `return` statement ends the function call and _returns_ control flow back to the caller. In the example above, the `print` statement is unreachable.
@@ -47,7 +47,7 @@ The `return` statement ends the function call and _returns_ control flow back to
 
 ```python
 def print_hello():
-    print("Hello!")
+    print("Hello!")
 
 print_hello()
 ```
@@ -56,8 +56,8 @@ print_hello()
 
 ```python
 def print_hello():
-    print("Hello!")
-    return "Hello!"
+    print("Hello!")
+    return "Hello!"
 
 print(print_hello())
 ```
@@ -66,7 +66,7 @@ print(print_hello())
 
 ```python
 def exclaim(phrase):
-    print(phrase + "!!!")
+    print(phrase + "!!!")
 
 exclaim("Hi")
 exclaim("Yayy")
@@ -94,7 +94,7 @@ Functions can also have default arguments. If not specified by a function call, 
 import math
 
 def area(radius=1):
-    return math.pi * (radius ** 2)
+    return math.pi * (radius ** 2)
 
 print(area(2))
 print(area())
@@ -120,19 +120,19 @@ def function_name(parameter):
 
 ```python
 def is_prime(n):
-    """
-    Checks if n is less than or equal to 1, returning False if so. Then loops
+    """
+    Checks if n is less than or equal to 1, returning False if so. Then loops
     from 2 up to n-1. If n modulo the loop variable is 0, returns False. If the
     loop finishes without returning False, returns True.
-    """
-    if n <= 1:
-        return False
+    """
+    if n <= 1:
+        return False
 
-    for i in range(2, n):
-        if n % i == 0:
-            return False
+    for i in range(2, n):
+        if n % i == 0:
+            return False
 
-    return True
+    return True
 ```
 :::
 
@@ -141,23 +141,23 @@ def is_prime(n):
 
 ```python
 def is_prime(n):
-    """
-    Determines whether a given integer is a prime number.
+    """
+    Determines whether a given integer is a prime number.
 
-    Arguments:
-        n: An integer to be checked.
+    Arguments:
+        n: An integer to be checked.
 
-    Returns:
-        True if n is a prime number, False otherwise.
-    """
-    if n <= 1:
-        return False
+    Returns:
+        True if n is a prime number, False otherwise.
+    """
+    if n <= 1:
+        return False
 
-    for i in range(2, n):
-        if n % i == 0:
-            return False
+    for i in range(2, n):
+        if n % i == 0:
+            return False
 
-    return True
+    return True
 ```
 :::
 
