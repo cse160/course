@@ -62,6 +62,16 @@ def print_hello():
 print(print_hello())
 ```
 
+## Example: Exclaim
+
+```python
+def exclaim(phrase):
+    print(phrase + "!!!")
+
+exclaim("Hi")
+exclaim("Yayy")
+```
+
 ## Practice: Divisibility
 
 What would Python display?
@@ -74,16 +84,6 @@ def is_divisible(a, b):
     return False
 
 print(is_divisible(9, 3))
-```
-
-## Example: Exclaim
-
-```python
-def exclaim(phrase):
-    print(phrase + "!!!")
-
-exclaim("Hi")
-exclaim("Yayy")
 ```
 
 ## Example: Area of a circle
