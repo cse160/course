@@ -30,17 +30,6 @@ Here is a summary of the steps taken when a function call evaluates:
 1. Evaluate the function body.
 1. At a return statement, evaluate the expression. If no return is encountered, return `None`.
 
-## Practice: Mystery
-
-What would Python display?
-
-```python
-def mystery(a, b):
-    return a * b
-
-mystery(mystery(2, 6), 3)
-```
-
 ## Practice: Tacos
 
 What would Python display?
@@ -50,6 +39,17 @@ def food():
     print("Tacos :)")
 
 print(food())
+```
+
+## Practice: Mystery
+
+What would Python display?
+
+```python
+def mystery(a, b):
+    return a * b
+
+mystery(mystery(2, 6), 3)
 ```
 
 ## Variable scope
