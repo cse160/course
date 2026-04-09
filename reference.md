@@ -12,7 +12,7 @@ downloads:
 
 ## Conditionals
 
-[`if` statements](https://docs.python.org/3.13/tutorial/controlflow.html#if-statements) runs the indented block depending on the [truth value of the condition](https://docs.python.org/3/library/stdtypes.html#truth-value-testing). `if` statements can be followed by `elif` statements and up to one final `else` statement.
+[`if` statements](https://docs.python.org/3.13/tutorial/controlflow.html#if-statements) runs the indented block depending on the [truth value of the condition](https://docs.python.org/3/library/stdtypes.html#truth-value-testing). `if` statements can be followed by `elif` statements and up to one final `else` statement.
 
 ```python
 if condition1:
@@ -222,7 +222,7 @@ print(unique_to_cafe) # this prints: {'blues', 'hipster'}
 
 ## Dictionaries
 
-A [dictionary](https://docs.python.org/3.13/tutorial/datastructures.html#dictionaries) is an unordered mapping of keys to values.
+A [dictionary](https://docs.python.org/3.13/tutorial/datastructures.html#dictionaries) is an unordered mapping of keys to values.
 
 - Keys must be **unique**: no duplicate keys.
 - Keys must be **immutable**: `int`, `float`, and `string` types are OK as keys but not `list`, `set`, or `dict` types.
