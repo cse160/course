@@ -86,7 +86,7 @@ Hi, I'm Arpan (arr-pin) and I'm a senior in the BS/MS program for ECE. This will
 Hi y'all, this is Cici! I'm currently a junior majoring in Bioengineering (Data Science Option). This is my first quarter TA-ing CSE160, and I'm so excited to meet y'all. Outside of class, I enjoy baking, singing, listening to K-pop, and trying out new boba shops. If you have any questions or just wanna chat, feel free to reach out!
 ```
 
-```{card} ![Headshot of Tiernan Kennedy](images/tiernan-kennedy.webp)
+```{card} ![Tiernan smiling on a hike in the Pacific Northwest, with mountain scenery in the background.](images/tiernan-kennedy.webp)
 :header: **Tiernan Kennedy** (he/him)
 :footer: Office Hours: Wed 11:30 AM – 1:20 PM, Fri 11:30 AM — 1:20 PM
 :url: https://tiernan7.github.io/
