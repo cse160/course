@@ -52,6 +52,10 @@
       items:
         - type: Section
           name: Conditionals and Loops
+          href: https://docs.google.com/presentation/d/1FXiSiN4yIWbnU497t9XflBveR0vfjHoc/edit?usp=sharing&ouid=105466315384079082532&rtpof=true&sd=true
+          auxil:
+            id: Handout
+            href: https://docs.google.com/document/d/1EemRh_4t5oDz7CKHlEeu9NXWSr6J0y2himf7_MAu0LI/edit?usp=sharing
         - type: Homework
           name: DNA Analysis
           href: /dna-analysis
