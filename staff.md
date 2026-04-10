@@ -79,7 +79,7 @@ Hi, I'm Arpan (arr-pin) and I'm a senior in the BS/MS program for ECE. This will
 
 ## Section AF
 
-```{card} ![Headshot of Cici Situ](images/cici-situ.webp)
+```{card} ![Cici Situ smiling in the Japanese Garden in Portland.](images/cici-situ.webp)
 :header: **Cici Situ** (she/her)
 :footer: Office Hours: Tue 11:00 AM – 1:00 PM
 
