@@ -20,6 +20,7 @@ matches = 0
 
 
 # ~~~ End Problem 1 ~~~
+print("~~~~~~~~~~~")
 
 assert matches == 2, "'Target found!' should be printed twice."
 
@@ -68,6 +69,7 @@ Examples:
 
 
 # ~~~ End Problem 3 ~~~
+print("~~~~~~~~~~~")
 
 assert letter_count("python", "y") == 1
 assert letter_count("banana", "n") == 2
