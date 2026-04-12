@@ -69,7 +69,7 @@ Hi all! I'm Asmi, and I'm a senior doing a double degree in Informatics and Poli
 Hi there! I'm Arona, a senior majoring in Informatics and minoring in data science. I love getting outdoors, exploring local shops, and having movie nights with friends. I'm always down to chat, so feel free to send me an email or visit me during office hours!
 ```
 
-```{card} ![Headshot of Arpan Kapoor](images/arpan-kapoor.webp)
+```{card} ![Arpan Kapoor smiling slightly outdoors. Arpan is an Asian male with medium long black hair.](images/arpan-kapoor.webp)
 :header: **Arpan Kapoor** (he/him)
 :footer: Office Hours: Thu 10:30 AM — 12:20 PM
 :url: https://www.linkedin.com/in/arpan-kapoor-145167224/
