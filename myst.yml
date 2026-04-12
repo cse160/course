@@ -39,6 +39,7 @@ project:
         - file: lectures/nested-loops.md
         - file: lectures/functions.md
         - file: lectures/more-functions.md
+        - file: lectures/lists.md
     - title: Homework
       children:
         - file: homework/practical/practical.md

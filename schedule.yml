@@ -73,6 +73,7 @@
       items:
         - type: Lecture
           name: Lists
+          href: /lists
         - type: Practice
           name: Programming Practice 3
           href: https://jupyter.rttl.uw.edu/2026-spring-cse-160-a/hub/user-redirect/lab/tree/COURSE_MATERIALS/practice
