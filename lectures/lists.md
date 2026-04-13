@@ -28,7 +28,7 @@ Retrieve information about a list and its elements using built-in list operators
 
 - `len(my_list)` returns the **length** of `my_list`. `len` also works for other sequence types like `str`.
 - `my_list[index]` retrieves the element at the given `index` in `my_list`. Negative indexing counts from the end of the list: `my_list[-1]` retrives the last element.
-- `my_list[start:end:stop]` retrives a sublist or **slice** between the indices `start` (inclusive) and `end` (exclusive). It uses the same syntax rules as `range`.
+- `my_list[start:end:step]` retrives a sublist or **slice** between the indices `start` (inclusive) and `end` (exclusive). It uses the same syntax rules as `range`.
 - `x in my_list` evaluates to `True` if and only if `x` is in `my_list`, while `x not in my_list` evaluates to `True` if and only if `x` is not found.
 - `my_list.index(x)` returns the index of the first occurrence of `x` in `my_list`. If `x` is not present, Python will raise a `ValueError`.
 - `my_list.count(x)` returns the number of times `x` occurs in `my_list`.
@@ -38,15 +38,15 @@ Retrieve information about a list and its elements using built-in list operators
 For each expression below, what would Python display?
 
     a = [3, 12, 10, 7, 9, 7]
-    a[0])
-    a[5])
-    a[6])
-    a[-1])
-    a[-2])
-    a[1:3])
-    a[2:5])
-    a[:])
-    a[0:len(a)])
+    a[0]
+    a[5]
+    a[6]
+    a[-1]
+    a[-2]
+    a[1:3]
+    a[2:5]
+    a[:]
+    a[0:len(a)]
 
 Using `a = [2, 7, 3, 9, 4]`, write a Python expression to print `9 4 7`.
 
@@ -55,12 +55,12 @@ Using `a = [2, 7, 3, 9, 4]`, write a Python expression to print `9 4 7`.
 For each expression below, what would Python display?
 
     a = [3, 12, 10, 7, 9, 7]
-    print(9 in a)
-    print(16 in a)
-    print(a.index(7))
-    print(a.index(16))
-    print(a.count(7))
-    print(a.count(16))
+    9 in a
+    16 in a
+    a.index(7)
+    a.index(16)
+    a.count(7)
+    a.count(16)
 
 ## Modifying list elements
 
