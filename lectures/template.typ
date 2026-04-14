@@ -11,6 +11,12 @@
 #let tipBlock(..args) = {}
 #let warningBlock(..args) = {}
 
+// Hide tablex elements
+#let tablex(..args) = {}
+#let cellx(..args) = {}
+#let tableStyle = {}
+#let columnStyle = {}
+
 // Hide all par, enum, and list elements
 #show par: none
 #show enum: none
