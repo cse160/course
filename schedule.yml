@@ -84,6 +84,7 @@
       items:
         - type: Lecture
           name: Nested Lists
+          href: /nested-lists
     - date: Thu, Apr 16
       items:
         - type: Section

@@ -40,6 +40,7 @@ project:
         - file: lectures/functions.md
         - file: lectures/more-functions.md
         - file: lectures/lists.md
+        - file: lectures/nested-lists.md
     - title: Homework
       children:
         - file: homework/practical/practical.md
