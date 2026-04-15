@@ -8,5 +8,5 @@ Sum of G+C+A+T counts: 39811
 Total count: 40000
 Length of nucleotides: 40000
 AT/GC Ratio: 1.4927055287708972
-GC Classification: moderate GC content
+GC Classification: medium
 Is suitable for nanotech: False

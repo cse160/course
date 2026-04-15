@@ -139,17 +139,17 @@ Sometimes, biologists use the **AT/GC ratio**, which is defined as $\frac{A + T}
 GC content can be used to categorize microorganisms. Complete the `classify` function, which should return a string `"high"`, `"medium"`, or `"low"` based on the organism's GC content:
 
 - `"high"` for GC content strictly above 58%.
-- `"moderate"` for GC content between 58% (inclusive) and 35% (inclusive).
+- `"medium"` for GC content between 58% (inclusive) and 35% (inclusive).
 - `"low"` for GC content strictly below 35%.
 
 Biologists can use GC content for classifying species, for determining the melting temperature of DNA, for identifying suitability for DNA nanotechnology, etc. Here are some examples:
 
 - The GC content of Streptomyces coelicolor A3(2) is 72%: `"high"`.
-- The GC content of Yeast (Saccharomyces cerevisiae) is 38%: `"moderate"`.
-- The GC content of Thale Cress (Arabidopsis thaliana) is 35%: `"moderate"`.
+- The GC content of Yeast (Saccharomyces cerevisiae) is 38%: `"medium"`.
+- The GC content of Thale Cress (Arabidopsis thaliana) is 35%: `"medium"`.
 - The GC content of Plasmodium falciparum is 20%: `"low"`.
 
-Test that your program works on some data files with known outputs. The `test-small.fastq` file has low GC content. We have provided four other test files whose names explain their GC content: `test-moderate-gc-1.fastq`, `test-moderate-gc-2.fastq`, `test-high-gc-1.fastq`, `test-high-gc-2.fastq`.
+Test that your program works on some data files with known outputs. The `test-small.fastq` file has low GC content. We have provided four other test files whose names explain their GC content: `test-medium-gc-1.fastq`, `test-medium-gc-2.fastq`, `test-high-gc-1.fastq`, `test-high-gc-2.fastq`.
 
 The `classify` function appears near the top of `dna_analysis.py`, just before where the main program begins. Replace the assignment statement at the top of the function.
 
@@ -158,7 +158,7 @@ The `classify` function appears near the top of `dna_analysis.py`, just before w
 :end-at: return classification
 ```
 
-**Once you have filled in the body of the `classify` function, call the function from your main program in the appropriate place and use the string it returns to print out a message that matches what is expected.** For example, ensure your output for `test-moderate-gc-1.fastq` matches `test-moderate-gc-1-expected.txt` exactly using [Diffchecker](https://diffchecker.com/).
+**Once you have filled in the body of the `classify` function, call the function from your main program in the appropriate place and use the string it returns to print out a message that matches what is expected.** For example, ensure your output for `test-medium-gc-1.fastq` matches `test-medium-gc-1-expected.txt` exactly using [Diffchecker](https://diffchecker.com/).
 
 After your program works for all the test files, run it on `sample_1.fastq`. **Copy and paste just the relevant line of output from your program into `answers.txt`** (the line that indicates the GC classification).
 
