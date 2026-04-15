@@ -197,6 +197,8 @@ Then, review our [style guide](../../style-guide.md), paying particular attentio
 - [Line length](../../style-guide.md#line-length)
 - Logical refactoring
   - [Conditional logic](../../style-guide.md#conditional-logic)
+  - [Boolean zen](../../style-guide.md#conditional-logic)
+  - [Loop zen](../../style-guide.md#conditional-logic)
 - Program design
   - [Fit and finish](../../style-guide.md#fit-and-finish)
 
