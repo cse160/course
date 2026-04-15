@@ -113,6 +113,7 @@
           name: Files
         - type: Homework
           name: Blurring
+          href: /blurring
           auxil:
             id: due May 8
             href: https://www.gradescope.com/courses/1287756

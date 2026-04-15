@@ -45,6 +45,7 @@ project:
       children:
         - file: homework/practical/practical.md
         - file: homework/dna-analysis/dna-analysis.md
+        - file: homework/blurring/blurring.md
   plugins:
     - schedule.mjs
 site:
