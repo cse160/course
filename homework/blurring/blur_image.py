@@ -1,6 +1,6 @@
 # Name ..
 # CSE 160
-# Homework 3: Image Blurring
+# Blurring
 # Description:
 
 import os
