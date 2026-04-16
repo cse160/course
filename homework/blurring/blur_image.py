@@ -23,8 +23,7 @@ def read_grid(file_path):
     pass  # REMOVE THIS LINE AND REPLACE IT WITH YOUR CODE ...
 
 
-def main():
-    input_file = parse_args()
+def main(input_file):
     path_without_extension, extension = os.path.splitext(input_file)
 
     if extension == ".csv":
@@ -48,9 +47,14 @@ def main():
 
 
 if __name__ == "__main__":
-    print("Welcome to the CSE 160 Image Blurring program!")
-    main()
-    print("Program done.")
+    input_file = parse_args()
+    if not input_file:
+        import doctest
+        doctest.testmod()
+    else:
+        print("Welcome to the CSE 160 Image Blurring program!")
+        main(input_file)
+        print("Program done.")
 
 
 ###

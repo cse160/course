@@ -109,9 +109,12 @@ def write_grid(file_name, pixel_grid):
 
 
 def parse_args():
-    # Print how to use the program correctly if it appears that it has
-    # been used incorrectly (with the wrong number of arguments).
-    if len(sys.argv) != 2:
+    if len(sys.argv) == 1:
+        return None
+    elif len(sys.argv) == 2:
+        return sys.argv[1]
+    else:
+        # Print how to use the program correctly if it appears that it has been used incorrectly.
         print("Usage:", sys.argv[0], "<input_file>")
         print("  <input_file> should be either ")
         print("    (a) a CSV-formatted text file")
@@ -123,5 +126,3 @@ def parse_args():
         print("   <input_file>_blurry.png (an image) and")
         print("   <input_file>_blurry_grid.txt (a CSV-formatted text file).")
         sys.exit()
-
-    return sys.argv[1]

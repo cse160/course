@@ -135,7 +135,7 @@ As you work, run `test_blur_image.py` to verify your work. You don't need to rea
 
 ## Problem 1: Reading individual pixels
 
-Implement and document the function `get_pixel_at` that takes a `pixel_grid`, `i`, and `j` and returns the value in the `pixel_grid` at row `i` and column `j`. If there is no row `i` or no column `j` in the `pixel_grid`, return `0`. For example, consider the pixel grid:
+Document, doctest, and implement the function `get_pixel_at` that takes a `pixel_grid`, `i`, and `j` and returns the value in the `pixel_grid` at row `i` and column `j`. If there is no row `i` or no column `j` in the `pixel_grid`, return `0`. For example, consider the pixel grid:
 
 ```python
 [[1, 5, 61], [4, 3, 2], [10, 11, 100]]
@@ -144,13 +144,16 @@ Implement and document the function `get_pixel_at` that takes a `pixel_grid`, `i
 - `get_pixel_at(pixel_grid, 0, 2)` returns `61`: the value at row 0 and column 2.
 - `get_pixel_at(pixel_grid, 3, 3)` returns `0`: the coordinates (3, 3) are out of bounds.
 
-This function can be done in as few as 2 or 3 lines of code (not including mandatory docstring), but we've also seen good solutions that are between 6 to 10 lines of program logic. Remember that all functions need to be documented in your own words.
+This function can be done in as few as 2 or 3 lines of code (not including mandatory docstring), but we've also seen good solutions that are between 6 to 10 lines of program logic. Remember that all functions need to be documented in your own words and include all the given examples as doctests.
+
+> [!tip]
+> `%run blur_image.py` without specifying a file will run all the doctests in the file.
 
 When `test_blur_image.py` reports "All tests passed for `get_pixel_at`!" then you're ready to move on to the next problem.
 
 ## Problem 2: Averaging a pixel
 
-Implement and document the function `average_of_surrounding` that takes a `pixel_grid`, `i`, and `j` and returns the average of the values of the specified pixel and its 8 surrounding pixels. Remember to use `//` (integer division). This function **must** call the `get_pixel_at` function. For example, consider the pixel grid:
+Document, doctest, and implement the function `average_of_surrounding` that takes a `pixel_grid`, `i`, and `j` and returns the average of the values of the specified pixel and its 8 surrounding pixels. Remember to use `//` (integer division). This function **must** call the `get_pixel_at` function. For example, consider the pixel grid:
 
 ```python
 [[1, 5, 61], [4, 3, 2], [10, 11, 100]]
@@ -165,7 +168,7 @@ When `test_blur_image.py` reports "All tests passed for `average_of_surrounding`
 
 ## Problem 3: Blurring a pixel grid
 
-Implement and document the function `blur` that takes a `pixel_grid` and returns a **new**, blurry pixel grid of the same size and shape. For example, consider the pixel grid:
+Document, doctest, and implement the function `blur` that takes a `pixel_grid` and returns a **new**, blurry pixel grid of the same size and shape. For example, consider the pixel grid:
 
 ```python
 [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
@@ -183,7 +186,7 @@ When `test_blur_image.py` reports "All tests passed for `blur`!" then you're rea
 
 ## Problem 4: Reading from CSV files
 
-Implement and document the function `read_grid` that takes a `file_path` and returns a pixel grid from the file contents. This function **must** call the `csv_line_to_pixels` function imported from `utils` at the top. For example, consider `test_grids/small_grid.csv`:
+Document, doctest, and implement the function `read_grid` that takes a `file_path` and returns a pixel grid from the file contents. This function **must** call the `csv_line_to_pixels` function imported from `utils` at the top. For example, consider `test_grids/small_grid.csv`:
 
 ```{literalinclude} test_grids/small_grid.csv
 ```
@@ -237,6 +240,8 @@ Then, review our [style guide](../../style-guide.md), paying particular attentio
   - [Loop zen](../../style-guide.md#loop-zen)
 - Program design
   - [Fit and finish](../../style-guide.md#fit-and-finish)
+
+All functions except for the `main` method must include doctests for the given examples.
 
 ## Collaboration
 
