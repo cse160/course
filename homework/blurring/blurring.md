@@ -219,7 +219,7 @@ Implement and document the `main` function, which will do three things:
 
 1. Generate a pixel grid based on a file name specified as a commandline argument. **This has already been done for you**.
 1. Call the `blur` function.
-1. Save the results to new files according to the instructions for [Running the program](#running-the-program).
+1. Save the results according to the above instructions on running the program.
 
 ## Code quality
 
