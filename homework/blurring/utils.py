@@ -1,3 +1,5 @@
+# Utility Functions - DO NOT MODIFY THIS FILE!
+
 import itertools
 from PIL import Image
 import sys
@@ -5,22 +7,17 @@ import sys
 
 def csv_line_to_pixels(line):
     """
-    Given a CSV-formatted row of integers, returns the integers
-    as a list. The argument line must be a string such as
+    Given a CSV-formatted row of integers, returns the integers as a list. The argument line must
+    be a string such as
 
         "255, 0,  27"
 
-    Note that
-     * There are no extra spaces at the beginning or end of
-       the string, and
-     * Commas are only between elements (no comma before the
-       first element, and no comma after the last one).
-
-    This method will present an error if either of these
-    constraints are violated.
+    There must be no extra spaces at the beginning or end of the string, and commas can only exist
+    between elements (no comma before the first element, and no comma after the last one). Raises
+    an error if either of these assumptions are not valid.
     """
     row = []
-    for pixel in line.split(','):
+    for pixel in line.split(","):
         row.append(int(pixel))
     return row
 
@@ -38,7 +35,6 @@ def convert_to_grayscale(input_file, out_file):
     out_image = in_image.convert("L")
 
     try:
-        # Write the image
         out_image.save(out_file, "PNG")
     except IOError as e:
         print(e)
@@ -48,16 +44,11 @@ def convert_to_grayscale(input_file, out_file):
 
 def read_image(file_path):
     """
-    Reads the image file at file_path into a rectangular grid of pixels,
-    represented as a list of list of integer. Each element of the outer list
-    is one row of pixels, where each pixel is an integer x such that
-    0 <= x < 256. Returns the grid of pixels.
+    Reads the image file at file_path and returns it as a rectangular pixel grid. Each element of
+    the outer list is one row of pixels, where each pixel is an integer x such that 0 <= x < 256.
     """
-    # YOU DO NOT NEED TO MODIFY THIS FUNCTION.
-    # Do not worry about understanding "How" this function works.
     print("Reading image", file_path)
 
-    # Open a file in image format
     try:
         image_file = Image.open(file_path)
     except IOError as e:
@@ -83,27 +74,20 @@ def read_image(file_path):
 
 def write_image(file_name, pixel_grid):
     """
-    Given pixel_grid as an image in a list of lists of integers format,
-    write it to the filename file_name as an image.
-    Requires that:
-    * Each row of pixel_grid is of the same length
-    * Each pixel value is an integer x such that 0 <= x < 256.
+    Given a pixel_grid, write it to the file_name as an image. Each row of pixel_grid must have the
+    same length, and each pixel value must be an integer x such that 0 <= x < 256.
     """
-    # YOU DO NOT NEED TO MODIFY THIS FUNCTION.
-    # Do not worry about understanding "How" this function works.
     size = len(pixel_grid[0]), len(pixel_grid)
     image = Image.new("L", size)
 
-    print("Writing", size[0], 'x', size[1], "image to file", file_name)
+    print("Writing", size[0], "x", size[1], "image to file", file_name)
 
-    # Flatten the list by making an iterable sequence over the inner lists
-    # and then materializing the whole list.
+    # Flatten the list.
     data = list(itertools.chain.from_iterable(pixel_grid))
     image.putdata(data)
 
     try:
-        # Write the image. File extension of file_name determines
-        # the encoding.
+        # Write the image using the encoding specified in the file_name.
         image.save(file_name)
     except IOError as e:
         print(e)
@@ -112,18 +96,14 @@ def write_image(file_name, pixel_grid):
 
 
 def write_grid(file_name, pixel_grid):
-    """
-    Writes the given pixel_grid to filename file_name as CSV.
-    """
-    # YOU DO NOT NEED TO MODIFY THIS FUNCTION.
-    # Do not worry about understanding "How" this function works.
-    output_file = open(file_name, 'w')
+    """Writes the given pixel_grid to filename file_name as CSV."""
+    output_file = open(file_name, "w")
 
     for row in pixel_grid:
         output_file.write(str(row[0]))
         for column in range(1, len(row)):
-            output_file.write(', ' + str(row[column]).rjust(3))
-        output_file.write('\n')
+            output_file.write(", " + str(row[column]).rjust(3))
+        output_file.write("\n")
 
     output_file.close()
 
