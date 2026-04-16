@@ -101,3 +101,5 @@ Write a function `form_groups` that takes a list and an `int` maximum `size_limi
 
     form_groups(students, 3)
     # [[0, 1, 2], [3, 4, 5], [6, 7, 8], [9]]
+
+Then, write a [docstring](functions.md#documentation-strings) and [**doctests**](https://docs.python.org/3/library/doctest.html) (documentation tests) for both of these examples.
