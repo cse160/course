@@ -97,6 +97,7 @@
       items:
         - type: Lecture
           name: File Processing
+          href: /file-processing
         - type: Practice
           name: Programming Practice 4
           href: https://jupyter.rttl.uw.edu/2026-spring-cse-160-a/hub/user-redirect/lab/tree/COURSE_MATERIALS/practice
