@@ -32,8 +32,8 @@ def test_get_pixel_at():
             pixel = get_pixel_at(test_grid, i, j)
             assert pixel == expected, (
                 "[get_pixel_at] Test Error:\n"
-                f"\tExpected pixel value: {expected}\n"
-                f"\tActual pixel value: {pixel}"
+                "    Expected pixel value: " + str(expected) + "\n"
+                "    Actual pixel value: " + str(pixel)
             )
     except AssertionError as e:
         # Print a user-friendly error message (i.e., sans traceback)
@@ -62,8 +62,8 @@ def test_average_of_surrounding():
             pixel = average_of_surrounding(test_grid, i, j)
             assert pixel == expected, (
                 "[average_of_surrounding] Test Error:\n"
-                f"\tExpected average value: {expected}\n"
-                f"\tActual average value: {pixel}"
+                "    Expected average value: " + str(expected) + "\n"
+                "    Actual average value: " + str(pixel)
             )
     except AssertionError as e:
         # Print a user-friendly error message (i.e., sans traceback)
@@ -93,21 +93,21 @@ def test_blur():
     try:
         assert type(blurred_grid) is list, (
             "[blur] Test Error:\n"
-            "\tExpected blur to return a list\n"
-            f"\tActual: {type(blurred_grid)}"
+            "    Expected blur to return a list\n"
+            "    Actual: " + str(type(blurred_grid))
         )
 
         assert test_grid == test_grid_copy, (
             "[blur] Test Error:\n"
-            "\tExpected blur to not modify the original grid\n"
-            f"\tOriginal grid: {test_grid_copy}\n"
-            f"\tActual: {test_grid}"
+            "    Expected blur to not modify the original grid\n"
+            "    Original grid: " + str(test_grid_copy) + "\n"
+            "    Actual: " + str(test_grid)
         )
 
         assert blurred_grid == expected, (
             "[blur] Test Error:\n"
-            f"\tExpected: {expected}\n"
-            f"\tActual: {blurred_grid}"
+            "    Expected: " + str(expected) + "\n"
+            "    Actual: " + str(blurred_grid)
         )
 
         test_grid = [
@@ -127,8 +127,8 @@ def test_blur():
         blurred_grid = blur(test_grid)
         assert blurred_grid == expected, (
             "[blur] Test Error:\n"
-            f"\tExpected: {expected}\n"
-            f"\tActual: {blurred_grid}"
+            "    Expected: " + str(expected) + "\n"
+            "    Actual: " + str(blurred_grid)
         )
     except AssertionError as e:
         # Print a user-friendly error message (i.e., sans traceback)
@@ -160,8 +160,8 @@ def test_csv_line_to_pixels():
             pixels = csv_line_to_pixels(test_line)
             assert pixels == expected, (
                 "[csv_line_to_pixel] Test Error:\n"
-                f"\tExpected pixel list: {expected}\n"
-                f"\tActual pixel list: {pixels}"
+                "    Expected pixel list: " + str(expected) + "\n"
+                "    Actual pixel list: " + str(pixels)
             )
     except AssertionError as e:
         # Print a user-friendly error message (i.e., sans traceback)
@@ -196,8 +196,8 @@ def test_read_grid():
     try:
         assert actual_grid == expected_grid, (
             "[read_grid] Test Error:\n"
-            f"\tExpected grid: {expected_grid}\n"
-            f"\tActual grid: {actual_grid}"
+            "    Expected grid: " + str(expected_grid) + "\n"
+            "    Actual grid: " + str(actual_grid)
         )
     except AssertionError as e:
         # Print a user-friendly error message (i.e., sans traceback)
