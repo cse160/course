@@ -217,11 +217,9 @@ This function can be done in 5 to 8 lines of program logic but longer implementa
 
 When `test_blur_image.py` reports "All tests passed for `read_grid`!" **and** "All tests passed!" then you're ready to move on to the next problem.
 
-## Problem 5: Main function
+## Problem 5: Program entry point
 
-At this point, running `blur_image.py` still doesn't actually do anything because we still need to implement the `main` function! The `main` function represents the entry point for the program responsible for organizing the program's behavior at the highest level.
-
-Implement and document the `main` function, which will do three things:
+At this point, running `blur_image.py` still doesn't actually do anything because we need to call the functions we defined earlier! Implement the CSE 160 Image Blurring program, which will do three things:
 
 1. Generate a pixel grid based on a file name specified as a commandline argument. **This has already been done for you**.
 1. Call the `blur` function.

@@ -23,7 +23,13 @@ def read_grid(file_path):
     pass  # REMOVE THIS LINE AND REPLACE IT WITH YOUR CODE ...
 
 
-def main(input_file):
+input_file = parse_args()
+if not input_file:
+    import doctest
+    doctest.testmod()
+else:
+    print("Welcome to the CSE 160 Image Blurring program!")
+
     path_without_extension, extension = os.path.splitext(input_file)
 
     if extension == ".csv":
@@ -39,22 +45,13 @@ def main(input_file):
 
     # input_filename = os.path.basename(path_without_extension)
     # output_image_filename = input_filename + '_blurry.png'
-    # output_grid_filename = input_filename + '_blurry_grid.txt'
+    # output_grid_filename = input_filename + '_blurry_grid.csv'
 
     # Write the blurred image and grid to files
     ...  # REPLACE THIS LINE WITH YOUR CODE TO WRITE THE BLURRED IMAGE
     ...  # REPLACE THIS LINE WITH YOUR CODE TO WRITE THE BLURRED GRID
 
-
-if __name__ == "__main__":
-    input_file = parse_args()
-    if not input_file:
-        import doctest
-        doctest.testmod()
-    else:
-        print("Welcome to the CSE 160 Image Blurring program!")
-        main(input_file)
-        print("Program done.")
+    print("Program done.")
 
 
 ###
