@@ -8,14 +8,72 @@ from utils import read_image, write_image, parse_args, csv_line_to_pixels, write
 
 
 def get_pixel_at(pixel_grid, i, j):
+    """
+
+    >>> test_grid = [
+    ...     [1, 2, 3, 4, 5, 6],
+    ...     [0, 2, 4, 6, 8, 10],
+    ...     [3, 4, 5, 6, 7, 8],
+    ... ]
+    >>> get_pixel_at(test_grid, 0, 0)
+    1
+    >>> get_pixel_at(test_grid, -1, 0)
+    0
+    >>> get_pixel_at(test_grid, 0, -1)
+    0
+    >>> get_pixel_at(test_grid, -1, -1)
+    0
+    >>> get_pixel_at(test_grid, 2, 5)
+    8
+    >>> get_pixel_at(test_grid, 3, 5)
+    0
+    >>> get_pixel_at(test_grid, 2, 6)
+    0
+    >>> get_pixel_at(test_grid, 3, 6)
+    0
+    >>> get_pixel_at(test_grid, 1, 3)
+    6
+    """
     pass  # REMOVE THIS LINE AND REPLACE IT WITH YOUR CODE ...
 
 
 def average_of_surrounding(pixel_grid, i, j):
+    """
+
+    >>> test_grid = [
+    ...     [1, 2, 3, 4, 5, 6],
+    ...     [0, 2, 4, 6, 8, 10],
+    ...     [3, 4, 5, 6, 7, 8],
+    ... ]
+    >>> average_of_surrounding(test_grid, 0, 0)
+    0
+    >>> average_of_surrounding(test_grid, 2, 5)
+    3
+    """
     pass  # REMOVE THIS LINE AND REPLACE IT WITH YOUR CODE ...
 
 
 def blur(pixel_grid):
+    """
+
+    >>> test_grid = [
+    ...     [1, 2, 3],
+    ...     [4, 5, 6],
+    ...     [7, 8, 9],
+    ... ]
+    >>> blur(test_grid)
+    [[1, 2, 1], [3, 5, 3], [2, 4, 3]]
+    >>> test_grid == [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+    True
+    >>> test_grid = [
+    ...     [1,  1,  1,  1,  1,  1],
+    ...     [1,  1,  1,  1,  1,  1],
+    ...     [1,  1,  1,  1,  1,  1],
+    ...     [1,  1,  1,  1,  1,  1],
+    ... ]
+    >>> blur(test_grid)
+    [[0, 0, 0, 0, 0, 0], [0, 1, 1, 1, 1, 0], [0, 1, 1, 1, 1, 0], [0, 0, 0, 0, 0, 0]]
+    """
     pass  # REMOVE THIS LINE AND REPLACE IT WITH YOUR CODE ...
 
 

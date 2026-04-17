@@ -134,8 +134,6 @@ Once you have finished this assignment, you will see two new (or updated) files 
 
 `blur_image.py` is split into a number of functions, each with a specific role. Each problem in this assignment corresponds roughly to one of the functions. We'll work from the bottom up, starting at the individual pixel level before working on the high-level algorithm to blur an entire image. This creates a hierarchy of function calls: `get_pixel_at` will be called by `average_of_surrounding`, which is in turn called by `blur`, which is finally called by `main`.
 
-As you work, run `test_blur_image.py` to verify your work. You don't need to read or understand the code in this file, but you may find it helpful to comment, uncomment, or reorder the test function calls at the bottom of `test_blur_image.py`. The test program checks all the programming tasks in this assignment: read the messages carefully to see which functions are reporting errors.
-
 ## Problem 1: Reading individual pixels
 
 Document, doctest, and implement the function `get_pixel_at` that takes a `pixel_grid`, `i`, and `j` and returns the value in the `pixel_grid` at row `i` and column `j`. If there is no row `i` or no column `j` in the `pixel_grid`, return `0`. For example, consider the pixel grid:
@@ -152,7 +150,7 @@ This function can be done in as few as 2 or 3 lines of code (not including manda
 > [!tip]
 > `%run blur_image.py` without specifying a file will run all the doctests in the file.
 
-When `test_blur_image.py` reports "All tests passed for `get_pixel_at`!" then you're ready to move on to the next problem.
+When all doctests for `get_pixel_at` pass, you're ready to move on to the next problem.
 
 ## Problem 2: Averaging a pixel
 
@@ -167,7 +165,7 @@ Document, doctest, and implement the function `average_of_surrounding` that take
 
 This function can be done in about 5 or 6 lines of program logic but longer implementations can be good too.
 
-When `test_blur_image.py` reports "All tests passed for `average_of_surrounding`!" then you're ready to move on to the next problem.
+When all doctests for `average_of_surrounding` pass, you're ready to move on to the next problem.
 
 ## Problem 3: Blurring a pixel grid
 
@@ -185,7 +183,7 @@ Document, doctest, and implement the function `blur` that takes a `pixel_grid` a
 
 We recommend starting with an empty list and appending new values to the list to create your new grid. Other approaches like copying the input list values are likely to result in tricky bugs. This function can be done in 8 to 15 lines of program logic but longer implementations can be good too.
 
-When `test_blur_image.py` reports "All tests passed for `blur`!" then you're ready to move on to the next problem.
+When all doctests for `blur` pass, you're ready to move on to the next problem.
 
 ## Problem 4: Reading from CSV files
 
@@ -215,7 +213,7 @@ You may use either of these two ways to read files in Python:
 
 This function can be done in 5 to 8 lines of program logic but longer implementations can be good too.
 
-When `test_blur_image.py` reports "All tests passed for `read_grid`!" **and** "All tests passed!" then you're ready to move on to the next problem.
+When all doctests for `read_grid` pass, you're ready to move on to the next problem.
 
 ## Problem 5: Program entry point
 
@@ -242,7 +240,7 @@ Then, review our [style guide](../../style-guide.md), paying particular attentio
 - Program design
   - [Fit and finish](../../style-guide.md#fit-and-finish)
 
-All functions except for the `main` method must include doctests for the given examples.
+All functions must include doctests for the given examples.
 
 ## Collaboration
 
