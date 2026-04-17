@@ -127,7 +127,10 @@ The starter code will print the following output without actually blurring the i
 Once you have finished this assignment, you will see two new (or updated) files in the current directory:
 
 - `Husky_blurry.png`, which is a blurred version of the original `Husky.png` file.
-- `Husky_blurry_grid.txt`, a text file containing the integer values of the blurred grid. The integers are in CSV (comma separated value) format to make easier to debug your program.
+- `Husky_blurry_grid.csv`, a text file containing the integer values of the blurred grid to make it easier to debug your program.
+
+> [!tip]
+> By default, JupyterHub opens `.csv` files in a spreadsheet-like tabular view. To view the text contents directly, right-click the file in the file browser and select **Open With | Editor**.
 
 `blur_image.py` is split into a number of functions, each with a specific role. Each problem in this assignment corresponds roughly to one of the functions. We'll work from the bottom up, starting at the individual pixel level before working on the high-level algorithm to blur an entire image. This creates a hierarchy of function calls: `get_pixel_at` will be called by `average_of_surrounding`, which is in turn called by `blur`, which is finally called by `main`.
 
