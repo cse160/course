@@ -195,19 +195,6 @@ Document, doctest, and implement the function `read_grid` that takes a `file_pat
 [[0, 0, 0], [0, 9, 0], [0, 0, 0]]
 ```
 
-You may use either of these two ways to read files in Python:
-
-1. ```python
-   with open(...) as f:
-       ...  # read file contents
-   ```
-
-1. ```python
-   f = open(...)
-   ...  # read file contents
-   f.close()
-   ```
-
 This function can be done in 5 to 8 lines of program logic but longer implementations can be good too.
 
 When all doctests for `read_grid` pass, you're ready to move on to the next problem.
