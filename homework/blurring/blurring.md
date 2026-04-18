@@ -25,7 +25,7 @@ One way to process images is by adding filters. Blurring is a type of image filt
 To **blur an image**, we can return a new grid with pixels that represent the average of each pixel and its 8 surrounding pixels. To calculate the average of the center pixel (with value `3`), add all 8 surrounding pixels to the center pixel and then divide the sum by 9: $$\frac{1 + 5 + 61 + 4 + 3 + 2 + 10 + 11 + 100}{9} = \frac{197}{9} = 21$$
 
 > [!important]
-> Instead of using `/` (regular division), our Python program will use `//` (integer division) to ensure the resulting blurred pixel is a whole number between 0 and 255.
+> Instead of using `/` (true division), our Python program will use `//` (floor division) to ensure the resulting blurred pixel is a whole number between 0 and 255.
 
 We then repeat this process for every pixel in the grid. For any pixel where its 8 surrounding pixels fall outside the edge of the image, treat missing values as 0. For the top right corner pixel (with value `61`): $$\frac{0 + 0 + 0 + 5 + 61 + 0 + 3 + 2 + 0}{9} = \frac{71}{9} = 7$$
 
