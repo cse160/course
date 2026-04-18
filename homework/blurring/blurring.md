@@ -107,9 +107,6 @@ Here is another example pixel grid:
 
 If this list is assigned to the variable `grid`, access the top left corner pixel (with value `1`) with `grid[0][0]`. Access the bottom right corner pixel (with value `15`) with `grid[2][4]`.
 
-> [!warning]
-> Negative indexing (like `grid[-1][-1]`) is **not allowed** for this assignment!
-
 ## Running the program
 
 From an attached Python console, run `blur_image.py` by entering the following command in the terminal to blur `Husky.png`:
