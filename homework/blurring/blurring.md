@@ -224,7 +224,8 @@ Then, review our [style guide](../../style-guide.md), paying particular attentio
 - Program design
   - [Fit and finish](../../style-guide.md#fit-and-finish)
 
-All functions must include doctests for the given examples.
+> [!important]
+> All functions must include doctests for the given examples.
 
 ## Collaboration
 
