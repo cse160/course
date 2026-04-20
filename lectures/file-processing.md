@@ -41,6 +41,9 @@ To read the entire contents of the file into a single string:
 f.read()
 ```
 
+> [!tip]
+> `\n` is a **newline character**. Text editors like the one built into JupyterHub will automatically display the `\n` character as a newline.
+
 Alternatively, to read the file one line at a time, we can iterate over the file object using a `for` loop:
 
 ```python
@@ -76,17 +79,6 @@ f.write(string)
 
 In append mode, existing file contents are not overwritten; new content is just added to the end.
 
-## Example: Writing in read mode
-
-What happens if we try to write to a file opened in read mode?
-
-```python
-f = open("data/file.fl", "r")
-print(f.read())
-f.write("New content :)")
-f.close()
-```
-
 ## Closing files
 
 We're not done yet! When you are finished working with a file, it's important to close it:
@@ -104,26 +96,14 @@ with open("data/file.fl") as f:
     print(f.read())
 ```
 
-## Newline Characters
+## Example: Writing in read mode
 
-When writing to a file, we need to specify every character to be written including line breaks. `\n` is a **newline character**.
-
-```python
-f = open("test.txt", "w")
-f.write("New content!\n")
-f.write("Scratch that.")
-f.close()
-```
-
-## Example: Reading twice
-
-What happens if you call `read` multiple times on the same opened file?
+What happens if we try to write to a file opened in read mode?
 
 ```python
-f = open("data/file.fl", "r")
-print(f.read())
-print(f.read())
-f.close()
+with open("data/file.fl") as f:
+    print(f.read())
+    f.write("New content :)")
 ```
 
 ## Practice: Rainfall
