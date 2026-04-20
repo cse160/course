@@ -48,6 +48,13 @@ for line in file:
     print(line)
 ```
 
+## Practice: Nominees
+
+Write code that reads the contents of movie `nominees.txt` and evaluates to a list containing each movie name.
+
+```{literalinclude} data/nominees.txt
+```
+
 ## Writing files
 
 To write a file from Python back to the computer file system, first call the `open` function with the `"w"` (write) mode argument:
