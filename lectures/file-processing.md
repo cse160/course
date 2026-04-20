@@ -32,7 +32,7 @@ We can even omit the `./` at the beginning leaving just the file name `file-proc
 To read a file in Python, first call the `open` function and specify the file path.
 
 ```python
-file = open("file-processing.md")
+file = open("data/file.fl")
 ```
 
 To read the entire contents of the file into a single string:
@@ -60,7 +60,7 @@ Write code that reads the contents of movie `nominees.txt` and evaluates to a li
 To write a file from Python back to the computer file system, first call the `open` function with the `"w"` (write) mode argument:
 
 ```python
-file = open("file-processing.md", "w")
+file = open("data/file.fl", "w")
 file.write(string)
 ```
 
@@ -70,7 +70,7 @@ file.write(string)
 Alternatively, to append to content to the end of a file, call the `open` function with the `"a"` (append) mode argument:
 
 ```python
-file = open("file-processing.md", "a")
+file = open("data/file.fl", "a")
 file.write(string)
 ```
 
@@ -91,7 +91,7 @@ Changes to a file may not be fully implemented or saved until `close` is called.
 What happens if we try to write to a file opened in read mode?
 
 ```python
-f = open("file-processing.md", "r")
+f = open("data/file.fl", "r")
 print(f.read())
 f.write("New content :)")
 f.close()
@@ -113,7 +113,7 @@ f.close()
 What happens if you call `read` multiple times on the same opened file?
 
 ```python
-f = open("file-processing.md", "r")
+f = open("data/file.fl", "r")
 print(f.read())
 print(f.read())
 f.close()
