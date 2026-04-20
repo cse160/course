@@ -76,6 +76,17 @@ file.write(string)
 
 In append mode, existing file contents are not overwritten; new content is just added to the end.
 
+## Example: Writing in read mode
+
+What happens if we try to write to a file opened in read mode?
+
+```python
+f = open("data/file.fl", "r")
+print(f.read())
+f.write("New content :)")
+f.close()
+```
+
 ## Closing files
 
 We're not done yet! When you are finished working with a file, it's important to close it:
@@ -91,17 +102,6 @@ Alternatively, we can use the `with` statement to automatically close resources 
 ```python
 with open("data/file.fl") as f:
     print(f.read())
-```
-
-## Example: Writing in read mode
-
-What happens if we try to write to a file opened in read mode?
-
-```python
-f = open("data/file.fl", "r")
-print(f.read())
-f.write("New content :)")
-f.close()
 ```
 
 ## Newline Characters
