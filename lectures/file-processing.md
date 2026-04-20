@@ -86,6 +86,13 @@ file.close()
 
 Changes to a file may not be fully implemented or saved until `close` is called. Furthermore, keeping a file open may prevent other applications from using or modifying the file.
 
+Alternatively, we can use the `with` statement to automatically close resources at the end of the block:
+
+```python
+with open("data/file.fl") as f:
+    print(f.read())
+```
+
 ## Example: Writing in read mode
 
 What happens if we try to write to a file opened in read mode?
