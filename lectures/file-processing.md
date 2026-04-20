@@ -32,19 +32,19 @@ We can even omit the `./` at the beginning leaving just the file name `file-proc
 To read a file in Python, first call the `open` function and specify the file path.
 
 ```python
-file = open("data/file.fl")
+f = open("data/file.fl")
 ```
 
 To read the entire contents of the file into a single string:
 
 ```python
-file.read()
+f.read()
 ```
 
 Alternatively, to read the file one line at a time, we can iterate over the file object using a `for` loop:
 
 ```python
-for line in file:
+for line in f:
     print(line)
 ```
 
@@ -60,8 +60,8 @@ Write code that reads the contents of movie `nominees.txt` and evaluates to a li
 To write a file from Python back to the computer file system, first call the `open` function with the `"w"` (write) mode argument:
 
 ```python
-file = open("data/file.fl", "w")
-file.write(string)
+f = open("data/file.fl", "w")
+f.write(string)
 ```
 
 > [!warning]
@@ -70,8 +70,8 @@ file.write(string)
 Alternatively, to append to content to the end of a file, call the `open` function with the `"a"` (append) mode argument:
 
 ```python
-file = open("data/file.fl", "a")
-file.write(string)
+f = open("data/file.fl", "a")
+f.write(string)
 ```
 
 In append mode, existing file contents are not overwritten; new content is just added to the end.
@@ -92,7 +92,7 @@ f.close()
 We're not done yet! When you are finished working with a file, it's important to close it:
 
 ```python
-file.close()
+f.close()
 ```
 
 Changes to a file may not be fully implemented or saved until `close` is called. Furthermore, keeping a file open may prevent other applications from using or modifying the file.
