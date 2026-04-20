@@ -125,3 +125,18 @@ print(f.read())
 print(f.read())
 f.close()
 ```
+
+## Practice: Rainfall
+
+How rainy is Seattle? Let's analyze rainfall statistics collected by a sensor that can sometimes make mistakes and report negative rainfall.
+
+```{literalinclude} data/rainfall.dat
+```
+
+Write a program to print a single line summarizing statistics about a rainfall data file:
+
+- the sum total rainfall (only the positive integers),
+- the number of positive integers, and
+- the average rainfall.
+
+If there are no positive integers in the file, print "No rain" instead of these three values. Use the `int` function to convert a string to an integer.
