@@ -123,6 +123,7 @@
       items:
         - type: Lecture
           name: Dictionaries
+          href: /dictionaries
 - name: Advanced Data Structures
   days:
     - date: Mon, Apr 27
