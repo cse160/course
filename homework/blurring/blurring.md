@@ -109,7 +109,7 @@ If this list is assigned to the variable `grid`, access the top left corner pixe
 
 ## Running the program
 
-From an attached Python console, run `blur_image.py` by entering the following command in the terminal to blur `Husky.png`:
+From an attached Python console, run `blur_image.py` by entering the following command to blur `Husky.png`:
 
 ```ipython
 %run blur_image.py images/Husky.png
