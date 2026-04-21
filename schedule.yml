@@ -141,6 +141,7 @@
       items:
         - type: Lecture
           name: Nested Structures
+          href: /nested-structures
     - date: Thu, Apr 30
       items:
         - type: Section
