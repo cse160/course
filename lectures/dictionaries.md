@@ -34,11 +34,11 @@ Retrieve and modify information in a dictionary using square bracket syntax:
 > [!warning]
 > Retrieving or removing a key that is not present in the dictionary will raise a `KeyError`. Use the `in` or `not in` keywords to determine whether a key is present in the dictionary.
 
-## Practice: Spot the error
+## Practice: Food prices
 
 Given the dictionary `food_price = {"Taco": 3.25, "Burrito": 7.5, "Chips": 2.5, "Guac": 4.75}`, which statement will result in an error?
 
-    print(food_price[2.5])
+    food_price[2.5]
     food_price["Guac"] = 3
     del food_price["taco"]
     food_price[2.5] = "Chips"
