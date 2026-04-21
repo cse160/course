@@ -2,4 +2,5 @@
 exclude =
     .ipynb_checkpoints
     practice
+    tutor.py
 max-line-length = 100
