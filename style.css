@@ -3,6 +3,10 @@
   gap: 1rem;
 }
 
+.myst-card-body > div {
+  width: 100%;
+}
+
 .myst-card-body p {
   margin: 0;
 }
