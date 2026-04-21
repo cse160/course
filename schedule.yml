@@ -108,6 +108,7 @@
       items:
         - type: Lecture
           name: More File Processing
+          href: /more-file-processing
     - date: Thu, Apr 23
       items:
         - type: Section
