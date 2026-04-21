@@ -121,7 +121,7 @@ Quests and Final Exam
 Homework and Programming Practice
 : Homework and programming practice scale the score you earned from your quests and final exam. If you complete all your homework and programming practice perfectly, you keep 100% of your score from the first step. However, if you don't do any of the homework and programming practice at all, your score from the first step will be cut in half. Performance between 0 and 100 will scale this effect accordingly.
 : Homework scores will be rounded up. Each score will be rounded up to the next 10% interval. For example, any score greater than 90% on will be rounded up to 100%. Note that a score of exactly 90% remains 90%.
-: Programming practice scores will also be rounded up. Each score will be rounded up to the next 50% interval. For example, any score greater than 50% will be rounded up to 100%. Note that a score of exactly 50% remains 50%.
+: Programming practice scores will also be rounded up. Each score will be rounded up to the next 50% interval. For example, any score greater than 50% will be rounded up to 100%. Note that a score of exactly 50% remains 50%. The lowest-score programming practice will be dropped.
 
 Lightweight Activities
 : Lightweight activities and participation determine how your final grade is rounded. By default, your grade on the 4.0 scale is rounded down to the nearest decimal point (for example, a 3.89 becomes a 3.8). If you complete at least 90% of the lightweight activities, your grade will be rounded normally instead (a 3.85 becomes a 3.9).
