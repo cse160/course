@@ -44,6 +44,7 @@ project:
         - file: lectures/file-processing.md
         - file: lectures/more-file-processing.md
         - file: lectures/dictionaries.md
+        - file: lectures/nested-dictionaries.md
     - title: Homework
       children:
         - file: homework/practical/practical.md
