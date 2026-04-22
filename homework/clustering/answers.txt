@@ -1,12 +1,22 @@
-These questions are for Part 2 and assume that you've finished implementing and running analysis.py.
+Name: ...
+CSE 160
+Spring 2026
+Clustering
 
-1. What happened to all the centroids? Why are there fewer than the 10 initial centroids?
-Answer:
+These questions are for Part 2 after you've finished implementing and running analysis.py.
 
+What happened to all the centroids? Why are there fewer than the 11 initial centroids?
 
+...
 
-2. What's the accuracy of the algorithm for the MNIST dataset? By looking at the
+What's the accuracy of the algorithm for the MNIST dataset? By looking at the
 centroids, which letters are easier to be distinguished by the algorithm,
 and which are harder?
-Answer:
+
+...
+
+
+Collaboration:
+
+...
 
