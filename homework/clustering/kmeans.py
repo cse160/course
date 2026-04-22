@@ -69,9 +69,9 @@ def main(data, init_centroids, dataset):
             # plot centroid
             fig = plot_2d(assignment_dict, centroids)
             results_dir = os.path.join("results", "2D")
-            plot_fig(fig, results_dir, f"step{step}")
+            plot_fig(fig, results_dir, "step" + str(step))
 
-    print(f"K-means converged after {step} steps.")
+    print("K-means converged after " + str(step) + " steps.")
 
     if plot_final:
         # plot final centroids

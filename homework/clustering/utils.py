@@ -88,7 +88,7 @@ def load_centroids(fname, with_key=False):
             if with_key:
                 centroids[r[0]] = list(map(float, r[1:]))
             else:
-                centroids[f"centroid{i}"] = list(map(float, r))
+                centroids["centroid" + str(i)] = list(map(float, r))
     return centroids
 
 
@@ -132,7 +132,7 @@ def plot_centroids(centroids, name):
 def plot_fig(fig, parent_path, title):
     os.makedirs(parent_path, exist_ok=True)
     plt.title(title)
-    fig.savefig(os.path.join(parent_path, f"{title}.png"))
+    fig.savefig(os.path.join(parent_path, title + ".png"))
     plt.clf()
     plt.close()
 
