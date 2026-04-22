@@ -52,6 +52,7 @@ project:
         - file: homework/practical/practical.md
         - file: homework/dna-analysis/dna-analysis.md
         - file: homework/blurring/blurring.md
+        - file: homework/clustering/clustering.md
   plugins:
     - schedule.mjs
 site:

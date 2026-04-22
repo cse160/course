@@ -182,6 +182,12 @@
       items:
         - type: Section
           name: Sorting and Visualization
+        - type: Homework
+          name: Clustering
+          href: /clustering
+          auxil:
+            id: due May 15
+            href: https://www.gradescope.com/courses/1287756
     - date: Fri, May 8
       items:
         - type: Lecture
