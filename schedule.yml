@@ -88,7 +88,11 @@
     - date: Thu, Apr 16
       items:
         - type: Section
-          name: Functions and Lists
+          name: Functions, Lists, & Nested Lists
+          href: https://docs.google.com/presentation/d/18_3HXvvK0TLMeGfzEx3CT7orlo2rWP8_/edit?usp=sharing&ouid=105466315384079082532&rtpof=true&sd=true
+          auxil:
+            id: Handout
+            href: https://docs.google.com/document/d/1KPuJ18X11X_a4V-x-T1vdb1dehgGUsu-J-mjfvosego/edit?usp=sharing
     - date: Fri, Apr 17
       items:
         - type: Quest
