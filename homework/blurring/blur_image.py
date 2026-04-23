@@ -1,7 +1,7 @@
 # Name ..
 # CSE 160
+# Spring 2026
 # Blurring
-# Description:
 
 import os
 from utils import read_image, write_image, parse_args, csv_line_to_pixels, write_grid  # noqa: F401
