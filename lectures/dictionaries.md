@@ -18,7 +18,7 @@ A **dictionary** is a data structure used to store mappings from unique **keys**
 - **Values** do not need to be unique and can be of any data type.
 
 ```python
-fav_color = {"rea2000": "blue", "jamespw": "green", "lisaorii": "purple", "emmalu10": "gold"}
+fav_color = {"akap1204": "lavender", "ktgower": "pink", "aronacho": "fuchsia", "ksuhas16": "green"}
 squares = {2: 4, 3: 9, 5: 25, -5: 25, -2: 4, -3: 9}
 atomic_number = {"H": 1, "Fe": 26, "Au": 79}
 food_price = {"Taco": 3.25, "Burrito": 7.5, "Chips": 2.5, "Guac": 4.75}
@@ -52,7 +52,7 @@ for uwnetid in fav_color:
     print(uwnetid, "fav color is", fav_color[uwnetid])
 ```
 
-**Avoid iterating over a dictionary.** A very common mistake is to use a loop when you only needed to look up a single value. Only iterate over a dictionary if you need to modify or access the values associated with every key. To find a single person's favorite color, just look it up directly: `fav_color["rea2000"]`.
+**Avoid iterating over a dictionary.** A very common mistake is to use a loop when you only needed to look up a single value. Only iterate over a dictionary if you need to modify or access the values associated with every key. To find a single person's favorite color, just look it up directly: `fav_color["aronacho"]`.
 
 Dictionaries also have methods to retrieve collections of their keys, values, or key-value pairs:
 
