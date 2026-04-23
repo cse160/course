@@ -116,7 +116,11 @@
     - date: Thu, Apr 23
       items:
         - type: Section
-          name: Files
+          name: File I/O
+          href: https://docs.google.com/presentation/d/1cLL2Fclnavsrkq4K6_fFBUMKxWyVpv_o/edit?usp=sharing&ouid=105466315384079082532&rtpof=true&sd=true
+          auxil:
+            id: Handout
+            href: https://docs.google.com/document/d/1N-iNm7bRWWo56odDcJw1g6h-jjvWpKdOq0JgeV1IOY4/edit?usp=sharing
         - type: Homework
           name: Blurring
           href: /blurring
