@@ -205,7 +205,7 @@ At this point, running `blur_image.py` still doesn't actually do anything becaus
 
 1. Generate a pixel grid based on a file name specified as a commandline argument. **This has already been done for you**.
 1. Call the `blur` function.
-1. Save the results according to the above instructions on running the program.
+1. Call `write_image` and `write_grid` (already imported from `utils.py`) to write the `output_image_filename` and the `output_grid_filename`.
 
 ## Code quality
 
