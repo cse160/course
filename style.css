@@ -3,7 +3,7 @@
   gap: 1rem;
 }
 
-.myst-card-body > div {
+.myst-card-body > div[aria-label="table content"] {
   width: 100%;
 }
 
