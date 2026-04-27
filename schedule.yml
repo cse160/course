@@ -161,7 +161,8 @@
     - date: Mon, May 4
       items:
         - type: Lecture
-          name: Tuples
+          name: Tuples and Sorting
+          href: /tuples-and-sorting
         - type: Practice
           name: Programming Practice 6
           href: https://jupyter.rttl.uw.edu/2026-spring-cse-160-a/hub/user-redirect/lab/tree/COURSE_MATERIALS/practice
