@@ -154,6 +154,11 @@
       items:
         - type: Section
           name: Advanced Data Structures
+        - type: Homework
+          name: Clustering
+          auxil:
+            id: due May 15
+            href: https://www.gradescope.com/courses/1287756
     - date: Fri, May 1
       items:
         - type: Quest
@@ -172,26 +177,21 @@
     - date: Wed, May 6
       items:
         - type: Lecture
-          name: Sorting
+          name: Visualization
     - date: Thu, May 7
       items:
         - type: Section
-          name: Tuples and Sorting
-        - type: Homework
-          name: Clustering
-          auxil:
-            id: due May 15
-            href: https://www.gradescope.com/courses/1287756
+          name: Sorting and Visualization
     - date: Fri, May 8
       items:
         - type: Lecture
-          name: CSV Data
+          name: Objects
 - name: Libraries
   days:
     - date: Mon, May 11
       items:
         - type: Lecture
-          name: Objects
+          name: More Objects
         - type: Practice
           name: Programming Practice 7
           href: https://jupyter.rttl.uw.edu/2026-spring-cse-160-a/hub/user-redirect/lab/tree/COURSE_MATERIALS/practice
@@ -201,7 +201,7 @@
     - date: Wed, May 13
       items:
         - type: Lecture
-          name: More Objects
+          name: CSV File Processing
     - date: Thu, May 14
       items:
         - type: Section
@@ -218,7 +218,7 @@
     - date: Mon, May 18
       items:
         - type: Lecture
-          name: Visualization
+          name: Collections and Data Classes
         - type: Practice
           name: Programming Practice 8
           href: https://jupyter.rttl.uw.edu/2026-spring-cse-160-a/hub/user-redirect/lab/tree/COURSE_MATERIALS/practice
@@ -228,15 +228,15 @@
     - date: Wed, May 20
       items:
         - type: Lecture
-          name: More Visualization
+          name: Itertools and Functools
     - date: Thu, May 21
       items:
         - type: Section
-          name: Data Visualization
+          name: Data Processing
     - date: Fri, May 22
       items:
         - type: Lecture
-          name: Modules
+          name: Regular Expressions
 - name: Workflows
   days:
     - date: Wed, May 27
