@@ -26,7 +26,7 @@ You can also use lists to store multiple attributes for a single entity:
 ```python
 students = {
     "John Doe": [1234567, "jdoe@uw.edu", "B"],
-    "Maria Vera": [3456789, "mvera@uw.edu", "A"]
+    "Maria Vy": [3456789, "mvy@uw.edu", "A"]
 }
 
 students["John Doe"][0]
@@ -41,9 +41,9 @@ students = {
         "email": "jdoe@uw.edu",
         "grade": "B"
     },
-    "Maria Vera": {
+    "Maria Vy": {
         "ID": 3456789,
-        "email": "mvera@uw.edu",
+        "email": "mvy@uw.edu",
         "grade": "A"
     }
 }
@@ -59,7 +59,7 @@ Given the nested `students` dictionary above, which statement will run without e
 
     students[2]
     students["Lisa"] = 3
-    students["Maria Vera"][1]
+    students["Maria Vy"][1]
     students["John Doe"][ID] = 4567734
 
 ## Practice: Progress check
@@ -69,12 +69,12 @@ Given the following expanded `students` dictionary, write Python expressions to 
 ```python
 students = {
     "John Doe": {"ID": 1234567, "email": "jdoe@uw.edu", "grade": "B"},
-    "Maria Vera": {"ID": 3456789, "email": "mvera@uw.edu", "grade": "A"},
+    "Maria Vy": {"ID": 3456789, "email": "mvy@uw.edu", "grade": "A"},
     "Jun Li": {"ID": 5678912, "email": "jli@uw.edu", "grade": "B"}
 }
 ```
 
-1. Determine if `"Maria Vera"` is in this course.
+1. Determine if `"Maria Vy"` is in this course.
 1. Find Jun Li's email address.
 1. Modify John Doe's grade.
 1. Add a new student to the dictionary.
