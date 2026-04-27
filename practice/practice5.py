@@ -55,8 +55,7 @@ assert duck_dict(["Bri"], [5]) == {"Bri": 5}
 assert duck_dict(["Bri", "Kim"], [5, 6]) == {"Bri": 5, "Kim": 6}
 assert duck_dict(["A", "B", "C"], [5, 8, 1]) == {"A": 5, "B": 8, "C": 1}
 assert duck_dict(["A", "B", "C"], [1, 1, 1]) == {"A": 1, "B": 1, "C": 1}
-assert duck_dict(["A1", "A2", "A3"],
-                 [100, 15, 55]) == {"A1": 100, "A2": 15, "A3": 55}
+assert duck_dict(["A1", "A2", "A3"], [100, 15, 55]) == {"A1": 100, "A2": 15, "A3": 55}
 
 
 # ~~~ Begin Problem 3 ~~~
