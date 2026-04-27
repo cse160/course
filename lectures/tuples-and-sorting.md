@@ -137,7 +137,9 @@ Python provides two ways to sort data: the `sort()` method and the `sorted()` bu
 - `list.sort()` is a method that sorts the given list **in-place**. It modifies the original list and returns `None`. It can only be used on lists.
 - `sorted(itr)` is a built-in function that takes an iterable (like a list, string, tuple, or dictionary keys) and returns a **new sorted list**. It leaves the original iterable unchanged.
 
-    quote = "with great power there must also come great responsibility".split()
+```python
+quote = "with great power there must also come great responsibility".split()
+```
 
     sorted(quote)
     quote
