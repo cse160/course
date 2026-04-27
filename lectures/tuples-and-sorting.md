@@ -94,7 +94,7 @@ lst1.append(12)
 
 Of the three ordered sequence types (lists, strings, and tuples), only lists are mutable.
 
-### Practice: Tracing memory
+## Practice: Tracing memory
 
 Trace the following code in Python Tutor. What will `lst1`, `lst2`, and `lst3` evaluate to at the end of the execution?
 
@@ -109,7 +109,7 @@ lst1[2] = 5
 lst1.append(12)
 ```
 
-### Practice: Function calls
+## Practice: Function calls
 
 Trace the following code in Python Tutor. What will `lst2` and `lst3` evaluate to at the end of the execution?
 
