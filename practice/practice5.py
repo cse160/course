@@ -68,7 +68,8 @@ def word_counts(filename):
     a line number and the value is the number of words on that line. For example, a file containing
     3 words on the first line, 7 words on the second, and 9 words on the third would return
     {1: 3, 2: 7, 3: 9}. The first character on each line of the file is the line number, and should
-    not be included in the word count for that line.
+    not be included in the word count for that line. For reference, see the files used in the
+    assert statements below in the 'data' folder.
 
     Arguments:
         filename: a string representing a filename
