@@ -33,8 +33,7 @@ from utils import read_data
 data, _ = read_data("data/2d.csv")
 data = np.array(data)
 
-fig, ax = plt.subplots()
-fig.tight_layout()
+fig, ax = plt.subplots(layout="constrained")
 ax.scatter(data[:, 0], data[:, 1], c="black", s=15)
 ax.set_axis_off()
 
@@ -88,8 +87,7 @@ while old_centroids is None or not np.allclose(centroids, old_centroids):
     history.append((assignments, centroids))
 
 # Create the animation
-fig, ax = plt.subplots()
-fig.tight_layout()
+fig, ax = plt.subplots(layout="constrained")
 colors = ["blue", "red"]
 markers = ["o", "^"]
 
@@ -382,8 +380,7 @@ s_centroid_idx = np.bincount(s_assignments).argmax()
 s_history = [step[s_centroid_idx] for step in history]
 
 # Create the animation
-fig, ax = plt.subplots()
-fig.tight_layout()
+fig, ax = plt.subplots(layout="constrained")
 ax.set_axis_off()
 img = ax.imshow(s_history[0].reshape(28, 28), cmap="gray")
 

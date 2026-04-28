@@ -64,7 +64,7 @@ def plot_digit(digit):
     assert len(digit) == 784
     # mnist digits are size 28 x 28
     im = np.array(digit).reshape(28, 28)
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots(layout="constrained")
     ax.set_axis_off()
     plt.imshow(im, cmap="gray")
     return fig
