@@ -42,7 +42,7 @@ mystmd:
     - nodeenv -n 24.14.1 node_env
     - source node_env/bin/activate
     - npm install
-    - npx mystmd build --typst --execute --html
+    - npx mystmd build --typst --html --execute
   artifacts:
     paths:
       - $source_path
