@@ -306,7 +306,6 @@ After successfully running k-means on 2-dimensional data, let's use it to identi
 
 ```{code-cell} python
 :tags: [remove-input]
-:caption: A 28-by-28 grayscale image of the first data point in `data/mnist.csv`, the letter 'M'.
 :label: mnist-letter-m
 
 import io
