@@ -305,6 +305,7 @@ The program should report that it took 7 steps to converge. In addition, there s
 After successfully running k-means on 2-dimensional data, let's use it to identify handwritten letters from the **Extended Modified National Institute of Standards and Technology** database (EMNIST). For this assignment, we are only using a small subset of the dataset. Each image is 28-by-28 pixels for a total of 784 pixels per image. For k-means, we treat each image as a 784-dimensional data point.
 
 ```{code-cell} python
+:tags: [remove-input]
 :caption: A 28-by-28 grayscale image of the first data point in `data/mnist.csv`, the letter 'M'.
 :label: mnist-letter-m
 
