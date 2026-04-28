@@ -129,11 +129,11 @@ $$
 D(a, b) = \sqrt{(a_1 - b_1)^2 + (a_2 - b_2)^2 + (a_n - b_n)^2}
 $$ (euclidean-distance)
 
-For example, given two data points from a 3-dimensional dataset `x1 = [-2, -1, -4]` and `x2 = [10, -5, 5]`, the Euclidean distance is: $$D(x_1, x_2) = \sqrt{(-2  - 10)^2 + (-1 - (-5))^2 + (-4 - 5)^2} = \sqrt{241}$$
+For example, given two data points from a 3-dimensional dataset `x1 = [-2, -1, -4]` and `x2 = [10, -5, 5]`, the Euclidean distance is: $$\sqrt{(-2  - 10)^2 + (-1 - (-5))^2 + (-4 - 5)^2} = \sqrt{241}$$
 
 ### Averaging points
 
-How do we calculate the average of all the points assigned to that cluster? **Take the element-wise average of all data points assigned to that cluster.** If we have three 3-dimensional points $`a`$, $`b`$, and $`c`$, the average is: $$\left[\frac{a_1 + b_1 + c_1}{3}, \frac{a_2 + b_2 + c_2}{3}, \frac{a_3 + b_3 + c_3}{3}\right]$$
+How do we calculate the average of all the points assigned to that cluster? **Take the element-wise average of all data points assigned to that cluster.** If we have three 3-dimensional points $a$, $b$, and $c$, the average is: $$\left[\frac{a_1 + b_1 + c_1}{3}, \frac{a_2 + b_2 + c_2}{3}, \frac{a_3 + b_3 + c_3}{3}\right]$$
 
 For example, given a cluster with three 2-dimensional points:
 
@@ -143,7 +143,7 @@ x2 = [2, 3]
 x3 = [3, 2]
 ```
 
-The centroid for this cluster is defined as: $$[\frac{1 + 2 + 3}{3}, \frac{1 + 3 + 2}{3}] = [2, 2]$$
+The centroid for this cluster is defined as: $$\left[\frac{1 + 2 + 3}{3}, \frac{1 + 3 + 2}{3}\right] = [2, 2]$$
 
 ### Convergence criterion
 
