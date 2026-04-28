@@ -235,4 +235,4 @@ If you discuss an assignment with one or more classmates, **you must specify wit
 
 ## Submission
 
-Remove any assert statements before submitting to gradescope. Submit `blur_image.py` on Gradescope under the assignment **Homework: Blurring**.
+Submit `blur_image.py` on Gradescope under the assignment **Homework: Blurring**.

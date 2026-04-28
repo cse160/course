@@ -210,4 +210,4 @@ If you discuss an assignment with one or more classmates, **you must specify wit
 
 ## Submission
 
-Remove any assert statements before submitting to gradescope. Submit `dna_analysis.py` and `answers.txt` on Gradescope under the assignment **Homework: DNA Analysis**.
+Submit `dna_analysis.py` and `answers.txt` on Gradescope under the assignment **Homework: DNA Analysis**.
