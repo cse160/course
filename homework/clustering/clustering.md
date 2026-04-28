@@ -23,8 +23,11 @@ Consider the following 2-dimensional dataset. If you were asked to group these p
 ```{code-cell} python
 :tags: [remove-input]
 
+import io
+import base64
 import matplotlib.pyplot as plt
 import numpy as np
+from IPython.display import HTML, display
 from utils import read_data
 
 data, _ = read_data("data/2d.csv")
@@ -34,7 +37,12 @@ fig, ax = plt.subplots()
 fig.tight_layout()
 ax.scatter(data[:, 0], data[:, 1], c="black", s=15)
 ax.set_axis_off()
-plt.show()
+
+buf = io.BytesIO()
+fig.savefig(buf, format="png")
+data_uri = base64.b64encode(buf.getbuffer()).decode("ascii")
+display(HTML(f'<img src="data:image/png;base64,{data_uri}" alt="A scatter plot showing several clusters of 2D data points in black.">'))
+plt.close(fig)
 ```
 
 **K-means clustering** works in four steps:
@@ -53,7 +61,7 @@ import numpy as np
 from scipy.spatial.distance import cdist
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
-from IPython.display import HTML
+from IPython.display import HTML, display
 from utils import read_data, load_centroids
 
 # Load all data and initial centroids
@@ -100,11 +108,14 @@ def update(i):
                    marker="X", s=800, c=colors[j], edgecolors="white",
                    linewidths=3, label=f"centroid{j}")
 
-    ax.set_title("Step " + str(i + 1))
+    ax.set_title(f"Step {i + 1}")
 
 anim = FuncAnimation(fig, update, frames=len(history), interval=1000)
 plt.close()
-HTML(anim.to_jshtml())
+
+# Display the animation with a descriptive aria-label
+alt_text = "An animation showing the k-means algorithm on 2D data. Two centroids (X markers) start at random positions and move towards the centers of their respective clusters (blue circles and red triangles) over several steps until convergence."
+display(HTML(f'<div role="img" aria-label="{alt_text}">{anim.to_jshtml()}</div>'))
 ```
 
 > [!note]
@@ -299,10 +310,19 @@ After successfully running k-means on 2-dimensional data, let's use it to identi
 :caption: A 28-by-28 grayscale image of the first data point in `data/mnist.csv`, the letter 'M'.
 :label: mnist-letter-m
 
+import io
+import base64
+from IPython.display import HTML, display
 from utils import read_data, plot_digit
 
 data, _ = read_data("data/mnist.csv")
-plot_digit(data[0]);
+fig = plot_digit(data[0])
+
+buf = io.BytesIO()
+fig.savefig(buf, format="png")
+data_uri = base64.b64encode(buf.getbuffer()).decode("ascii")
+display(HTML(f'<img src="data:image/png;base64,{data_uri}" alt="Handwritten letter \'M\'.">'))
+plt.close(fig)
 ```
 
 Let's run the program from the console with the following command:
@@ -369,13 +389,16 @@ img = ax.imshow(s_history[0].reshape(28, 28), cmap="gray")
 
 def update(i):
     img.set_data(s_history[i].reshape(28, 28))
-    ax.set_title("Step " + str(i))
+    ax.set_title(f"Step {i}")
     return img, ax.title
 
 # Display the animation
 anim = FuncAnimation(fig, update, frames=len(s_history), interval=1000, blit=True)
 plt.close()
-HTML(anim.to_jshtml())
+
+# Display the animation with a descriptive aria-label
+alt_text = "An animation showing a single centroid converging from a random noise pattern into a clear, grayscale handwritten letter 'S' as the k-means algorithm progresses."
+display(HTML(f'<div role="img" aria-label="{alt_text}">{anim.to_jshtml()}</div>'))
 ```
 
 In this animation, centroid {eval}`str(s_centroid_idx)` begins as a random distribution of pixels that gradually converges toward the letter 'S'. Remember that this animation only shows one of the 12 centroids: although several steps appear to make no changes, the 11 other centroids might still be changing.
