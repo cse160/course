@@ -1,0 +1,15 @@
+Ice Hockey: Milan
+Cross-Country Skiing: Tesero
+Speed Skating: Milan
+Alpine Skiing: Cortina
+Freestyle Skiing: Livigno
+Figure Skating: Milan
+Ski Jumping: Predazzo
+Ski Mountaineering: Bormi
+Snowboarding: Livigno
+Biathlon: Anterselva
+Curling: Cortina
+Bobsleigh: Cortina
+Luge: Cortina
+Skeleton: Cortina
+Nordic Combined: Predazzo

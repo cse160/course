@@ -1,0 +1,5 @@
+Washington Seattle 800000
+Oregon Portland 635000
+Michigan Detroit 645700
+Washington Olympia 56000
+Oregon Salem 180400
