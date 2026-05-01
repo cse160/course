@@ -154,7 +154,7 @@
       items:
         - type: Section
           name: Dictionaries and Nested Structures
-          ref: https://docs.google.com/presentation/d/1HjBspxSAgpeCKg6C9bjI4MWqVV7u94ZQ/edit?usp=sharing&ouid=105466315384079082532&rtpof=true&sd=true
+          href: https://docs.google.com/presentation/d/1HjBspxSAgpeCKg6C9bjI4MWqVV7u94ZQ/edit?usp=sharing&ouid=105466315384079082532&rtpof=true&sd=true
           auxil:
             id: Handout
             href: https://docs.google.com/document/d/1Uw5iczjbb4P_CHyB2vHsNawYPebG-QNXrK91H5pLMbs/edit?usp=sharing
