@@ -17,7 +17,7 @@ def num_lower_val(max_val, input_dict):
     value is smaller than max_val
     """
     # Write your code for Problem 1 here!
-    
+
 
 # ~~~ End Problem 1 ~~~
 
@@ -47,7 +47,7 @@ def duck_dict(duck_names, duck_ages):
     Returns: An dictionary that maps the name of the ducks to their ages
     """
     # Write your code for Problem 2 here!
-    
+
 
 # ~~~ End Problem 2 ~~~
 
@@ -74,7 +74,7 @@ def word_counts(filename):
     Returns: a dictionary representing the number of words on each line of the given file
     """
     # Write your code for Problem 3 here!
-    
+
 
 # ~~~ End Problem 3 ~~~
 
