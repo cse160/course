@@ -9,13 +9,10 @@ Write a function largest_sum(nums1, nums2) that takes two lists of integers and 
 sum possible using one number from each list. You may assume that each list contains at least one
 number.
 """
-
 # Write your code for Problem 1 here!
 
 
-
 # ~~~ End Problem 1 ~~~
-print("~~~~~~~~~~~")
 
 assert largest_sum([1, 5, 3], [4, 2, 6]) == 11
 assert largest_sum([-5, -2, -10], [-4, -1, -8]) == -3
@@ -32,13 +29,10 @@ lowercase alphabetical letters from the original string. For example,
     clean("Hello!") should return "ello"
     clean("123 Kevin   ") should return "evin"
 """
-
 # Write your code for Problem 2 here!
 
 
-
 # ~~~ End Problem 2 ~~~
-print("~~~~~~~~~~~")
 
 assert clean("Hello!") == "ello"
 assert clean("123 Kevin   ") == "evin"
@@ -59,13 +53,10 @@ words whose cleaned versions are the same as their original version. For example
 
 You may use the previously created function for this problem.
 """
-
 # Write your code for Problem 3 here!
 
 
-
 # ~~~ End Problem 3 ~~~
-print("~~~~~~~~~~~")
 
 assert word_list(["AWEsome!", "helloworld", "python", "123"]) == ["helloworld", "python"]
 assert word_list(["Hello World"]) == []
