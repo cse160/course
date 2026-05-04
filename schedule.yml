@@ -158,11 +158,6 @@
           auxil:
             id: Handout
             href: https://docs.google.com/document/d/1Uw5iczjbb4P_CHyB2vHsNawYPebG-QNXrK91H5pLMbs/edit?usp=sharing
-        - type: Homework
-          name: Clustering
-          auxil:
-            id: due May 15
-            href: https://www.gradescope.com/courses/1287756
     - date: Fri, May 1
       items:
         - type: Quest
@@ -178,6 +173,12 @@
           auxil:
             id: due May 12
             href: https://www.gradescope.com/courses/1287756
+        - type: Homework
+          name: Clustering
+          href: /clustering
+          auxil:
+            id: due May 15
+            href: https://www.gradescope.com/courses/1287756
     - date: Wed, May 6
       items:
         - type: Lecture
@@ -187,12 +188,6 @@
       items:
         - type: Section
           name: Sorting and Visualization
-        - type: Homework
-          name: Clustering
-          href: /clustering
-          auxil:
-            id: due May 15
-            href: https://www.gradescope.com/courses/1287756
     - date: Fri, May 8
       items:
         - type: Lecture
