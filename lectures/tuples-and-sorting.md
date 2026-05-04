@@ -109,27 +109,6 @@ lst1[2] = 5
 lst1.append(12)
 ```
 
-## Practice: Function calls
-
-Trace the following code in Python Tutor. What will `lst2` and `lst3` evaluate to at the end of the execution?
-
-```python
-def change_val(lst):
-    lst[0] = 13
-
-def append_val(lst):
-    lst.append(99)
-
-def mystery(lst):
-    lst = [78, 24]
-    return lst
-
-lst2 = [1, 2]
-change_val(lst2)
-append_val(lst2)
-lst3 = mystery(lst2)
-```
-
 ## Sorting
 
 Python provides two ways to sort data: the `sort()` method and the `sorted()` built-in function.
