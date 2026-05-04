@@ -147,7 +147,7 @@ The centroid for this cluster is defined as: $$\left[\frac{1 + 2 + 3}{3}, \frac{
 
 How do we know our algorithm has converged? **Convergence** occurs when the locations of all centroids only change a miniscule amount between two iterations. We can define a small threshold ($\epsilon$) such that changes smaller than this threshold are ignored.
 
-For example, given two 2-dimensional centroids $c1$ and $c2$:
+For example, given two 2-dimensional centroids `c1` and `c2`:
 
 ```python
 c1 = [0.45132, -0.99134]
