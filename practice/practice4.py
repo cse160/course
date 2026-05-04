@@ -3,7 +3,6 @@
 # Spring 2026
 # Programming Practice 4
 
-
 # ~~~ Begin Problem 1 ~~~
 def get_last_pixel(pixel_grid):
     """
@@ -21,7 +20,6 @@ def get_last_pixel(pixel_grid):
 
 
 # ~~~ End Problem 1 ~~~
-print("~~~~~~~~~~~")
 
 assert get_last_pixel([[5, 2, 3], [1, 5, 4]]) == 4
 assert get_last_pixel([[1, 3], [3, 4], [15, 16], [9, 2]]) == 2
@@ -49,7 +47,6 @@ def sum_grid(pixel_grid):
 
 
 # ~~~ End Problem 2 ~~~
-print("~~~~~~~~~~~")
 
 assert sum_grid([[5, 2, 3], [1, 5, 4]]) == 20
 assert sum_grid([[1, 3], [3, 4], [15, 16], [9, 2]]) == 53
@@ -74,7 +71,6 @@ def first_letter(filename):
 
 
 # ~~~ End Problem 3 ~~~
-print("~~~~~~~~~~~")
 
 assert first_letter("data/numbers.txt") == "ottffs"
 assert first_letter("data/animals.txt") == "cspgcdchrm"
