@@ -56,10 +56,9 @@ Given the tuples `w = (4, 7, 9)` and `x = ("once", "upon", "a", "time")`, which 
 The `dict.items()` function returns a sequence of key-value pairs represented as tuples: `(key, value)`.
 
 ```python
-fav_color = {"rea2000": "blue", "jamespw": "green", "emmalu10": "gold"}
-
+fav_color = {"akap1204": "lavender", "ktgower": "pink", "aronacho": "fuchsia", "ksuhas16": "green"}
 for uwnetid, color in fav_color.items():
-    print("favorite color of", uwnetid, "is:", color)
+    print(uwnetid, " prefers ", color)
 ```
 
 Tuples are commonly used to return multiple values from a single function call. The returned tuple can then be **unpacked** into separate variables.
