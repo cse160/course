@@ -182,6 +182,7 @@
       items:
         - type: Lecture
           name: Visualization
+          href: /visualization
     - date: Thu, May 7
       items:
         - type: Section
