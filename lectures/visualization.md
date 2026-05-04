@@ -15,20 +15,18 @@ Quantitative research can be understood in terms of inputs and outputs:
 - The **input**, $x$, is the independent variable that the researcher controls.
 - The **output**, $y$, is the dependent variable resulting from running an experiment given the input $x$.
 
-For example, suppose we ran an experiment that produced `x1` and `y1`. How would you explain the relationship between `x1` and `y1`? We could try computing the mean (average) using `for` loops or by using built-in functions like `sum` and `len`.
+For example, suppose we ran an experiment that produced the following two lists representing `x` and `y`, respectively. How would you explain the relationship between `x` and `y`? We could try computing the mean (average) using `for` loops or by using built-in functions like `sum` and `len`.
 
 ```python
-x1 = [4.0 , 5.0 , 6.0 , 7.0 , 8.0 , 9.0 , 10.0 , 11.0 , 12.0 , 13.0 , 14.0 ]
-y1 = [4.26, 5.68, 7.24, 4.82, 6.95, 8.81,  8.04,  8.33, 10.84,  7.58,  9.96]
-sum(y1) / len(y1)
+[4,    5,    6,    7,    8,    9,    10,   11,   12,    13,   14  ]
+[4.26, 5.68, 7.24, 4.82, 6.95, 8.81, 8.04, 8.33, 10.84, 7.58, 9.96]
 ```
 
-What about this experiment that produced `x2` and `y2`?
+What about this experiment that produced different `y` values given the same `x` values?
 
 ```python
-x2 = [4.0 , 5.0 , 6.0 , 7.0 , 8.0 , 9.0 , 10.0 , 11.0 , 12.0 , 13.0 , 14.0 ]
-y2 = [3.10, 4.74, 6.13, 7.26, 8.14, 8.77,  9.14,  9.26,  9.13,  8.74,  8.10]
-sum(y2) / len(y2)
+[4,    5,    6,    7,    8,    9,    10,   11,    12,   13,   14  ]
+[3.10, 4.74, 6.13, 7.26, 8.14, 8.77, 9.14, 9.26,  9.13, 8.74, 8.10]
 ```
 
 [Descriptive statistics](https://en.wikipedia.org/wiki/Descriptive_statistics) like the mean, median, and standard deviation often fail to represent the complexity of datasets! [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet) argues for the importance of visualization as a means of understanding data.
