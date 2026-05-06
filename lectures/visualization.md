@@ -29,7 +29,7 @@ What about this experiment that produced different `y` values given the same `x`
 [3.10, 4.74, 6.13, 7.26, 8.14, 8.77, 9.14, 9.26,  9.13, 8.74, 8.10]
 ```
 
-[Descriptive statistics](https://en.wikipedia.org/wiki/Descriptive_statistics) like the mean, median, and standard deviation often fail to represent the complexity of datasets! [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet) argues for the importance of visualization as a means of understanding data.
+[Descriptive statistics](https://en.wikipedia.org/wiki/Descriptive_statistics) like the mean, median, and standard deviation often fail to represent the complexity of datasets! [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet) demonstrates the importance of visualization as a means of understanding data.
 
 ## Matplotlib
 
