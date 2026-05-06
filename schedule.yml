@@ -214,6 +214,7 @@
           name: CSVs and Objects
         - type: Homework
           name: Fishing Analysis
+          href: /fishing-analysis
           auxil:
             id: due May 29
             href: https://www.gradescope.com/courses/1287756

@@ -1,28 +1,33 @@
-## Question 1
-Why are there multiple rows for Ankh-Morpork? Why isn't there just a single row for this country?
+Name: ...
+CSE 160
+Spring 2026
+Fishing Analysis
 
+Why are there multiple rows for each country? Why isn't there just a single row for each country?
 
+...
 
-## Question 2
-What do you notice about the data for 1960? How do you think that affects how you'll
-handle reading the data in this problem's functions? (Hint: read the tip above.)
+What do you notice about the data for 1998? How will this affect how you'll handle reading the data
+in this problem's functions?
 
+...
 
+The measure _consumption_ is clearly labeled in the dataset, but no lines directly measure the
+_production_. How do you determine how much fish was produced by Canada in 1995? (Hint: the answer
+to this specific question is 1013617.)
 
-## Question 3
-The consumption measurement type is clearly labeled (line 2 of the file), but none of the
-other lines are labeled "production". If you were to ask "how much seafood did Ankh-Morpork 
-produce in 1960?" how would you come up with the answer? (Hint: the answer would be 8098.)
+...
 
+When did the United States' need surpass its production?
 
+...
 
-## Question 4
-When did the USA's need surpass its production?
+What's missing from the data we gave you that would help explain why the United States was still
+able to consume more fish than it produced?
 
+...
 
+Collaboration:
 
-## Question 5
-What's missing from the data we gave you that would help explain why the USA was still able
-to consume more seafood than it produced?
-
+...
 
