@@ -42,8 +42,8 @@ def get_closest_centroid(point, centroids):
     'centroid2'
     >>> get_closest_centroid([0, 0, 0, 0], {
     ...     "centroid1": [10000000000000, 10000000000000, 10000000000000, 10000000000000],
-    ...     "centroid2": [1000000000000, 1000000000000, 1000000000000, 1000000000000]}
-    ... }))
+    ...     "centroid2": [1000000000000, 1000000000000, 1000000000000, 1000000000000]
+    ... })
     'centroid2'
 
     Centroid names (keys) do not need to follow the "centroid1" and "centroid2" naming scheme.

@@ -105,13 +105,15 @@ def accuracy(list_of_points, labels, centroids):
     >>> centroids1 = {
     ...     "centroid1": [0.1839742, -0.45809263, -1.91311585, -1.48341843],
     ...     "centroid2": [-0.71767545, 1.2309971, -1.00348728, -0.38204247],
-    ...     "centroid3": [-1.71767545, 0.29971, 0.00328728, -0.38204247]}
+    ...     "centroid3": [-1.71767545, 0.29971, 0.00328728, -0.38204247]
+    ... }
     >>> accuracy(points, labels, centroids1)
     0.5
     >>> centroids2 = {
     ...     "centroid1": [0.1839742, -0.45809263, -1.91311585, -1.48341843],
     ...     "centroid2": [10, 10, 10, 10],
-    ...     "centroid3": [-10, 1, -10, 10]}
+    ...     "centroid3": [-10, 1, -10, 10]
+    ... }
     >>> accuracy(points, labels, centroids2)
     0.4
 
