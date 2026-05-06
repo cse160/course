@@ -154,7 +154,7 @@ Document and implement the `__init__` method that takes `self` and a `filename` 
 
 So, now that we've done all that work, how much fish will the **entire world** need to produce 50 years from now?
 
-Document and implement the `total_production_need` method that takes `self and an `int` number of `years_to_predict` and returns a single number: how many metric tonnes of fish will the world need to produce `years_to_predict` years from now? For each country code in `self.countries`:
+Document and implement the `total_production_need` method that takes `self` and an `int` number of `years_to_predict` and returns a single number: how many metric tonnes of fish will the world need to produce `years_to_predict` years from now? For each country code in `self.countries`:
 
 - Calculate the needed production using the country's `calculate` method. (This doesn't return anything, just updates the `Country` object.)
 - Predict the production need for `years_to_predict` years from now using the country's `predict_need` method (already implemented for you).
