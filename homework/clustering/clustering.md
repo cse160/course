@@ -38,9 +38,9 @@ ax.scatter(data[:, 0], data[:, 1], c="black", s=15)
 ax.set_axis_off()
 
 buf = io.BytesIO()
-fig.savefig(buf, format="png")
+fig.savefig(buf, format="svg")
 data_uri = base64.b64encode(buf.getbuffer()).decode("ascii")
-display(HTML(f'<img src="data:image/png;base64,{data_uri}" alt="A scatter plot showing several clusters of 2D data points in black.">'))
+display(HTML(f'<img src="data:image/svg+xml;base64,{data_uri}" alt="A scatter plot showing several clusters of 2D data points in black.">'))
 plt.close(fig)
 ```
 
@@ -109,6 +109,7 @@ def update(i):
     ax.set_title(f"Step {i + 1}")
 
 anim = FuncAnimation(fig, update, frames=len(history), interval=1000)
+plt.rcParams["animation.frame_format"] = "svg"
 plt.close()
 
 # Display the animation with a descriptive aria-label
@@ -314,12 +315,13 @@ from IPython.display import HTML, display
 from utils import read_data, plot_digit
 
 data, _ = read_data("data/mnist.csv")
+plt.rcParams["image.interpolation"] = "none"
 fig = plot_digit(data[0])
 
 buf = io.BytesIO()
-fig.savefig(buf, format="png")
+fig.savefig(buf, format="svg")
 data_uri = base64.b64encode(buf.getbuffer()).decode("ascii")
-display(HTML(f'<img src="data:image/png;base64,{data_uri}" alt="Handwritten letter \'M\'.">'))
+display(HTML(f'<img src="data:image/svg+xml;base64,{data_uri}" alt="Handwritten letter \'M\'.">'))
 plt.close(fig)
 ```
 
@@ -391,6 +393,8 @@ def update(i):
 
 # Display the animation
 anim = FuncAnimation(fig, update, frames=len(s_history), interval=1000, blit=True)
+plt.rcParams["image.interpolation"] = "none"
+plt.rcParams["animation.frame_format"] = "svg"
 plt.close()
 
 # Display the animation with a descriptive aria-label

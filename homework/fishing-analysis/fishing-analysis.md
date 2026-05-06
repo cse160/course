@@ -211,12 +211,12 @@ ax = usa[["production", "need"]].plot(
 )
 
 buf = io.BytesIO()
-plt.savefig(buf, format="png")
+plt.savefig(buf, format="svg")
 buf.seek(0)
 img_str = base64.b64encode(buf.read()).decode("utf-8")
 plt.close()
 
-display(HTML(f'<img src="data:image/png;base64,{img_str}" alt="Line plot showing production and need for the United States from 1995 to 2000. Production alternates between higher and lower years but shows a downward trend from about 5.8 million metric tonnes in 1995 to 5.5 million metric tonnes in 2000. Need starts at 5.8 million metric tonnes in 1995, dips to 5.7 million metric tonnes in 1997, but then grows to 6.2 million metric tonnes in 2000 with a missing data point for 1998.">'))
+display(HTML(f'<img src="data:image/svg+xml;base64,{img_str}" alt="Line plot showing production and need for the United States from 1995 to 2000. Production alternates between higher and lower years but shows a downward trend from about 5.8 million metric tonnes in 1995 to 5.5 million metric tonnes in 2000. Need starts at 5.8 million metric tonnes in 1995, dips to 5.7 million metric tonnes in 1997, but then grows to 6.2 million metric tonnes in 2000 with a missing data point for 1998.">'))
 ```
 
 ### Problem 3b: Pause and think
@@ -268,12 +268,12 @@ x = np.arange(years.min(), years.max() + 51)
 pd.DataFrame({"best-fit prediction": m * x + b}, index=x).plot(ax=ax, linestyle="--")
 
 buf = io.BytesIO()
-plt.savefig(buf, format="png")
+plt.savefig(buf, format="svg")
 buf.seek(0)
 img_str = base64.b64encode(buf.read()).decode("utf-8")
 plt.close()
 
-display(HTML(f'<img src="data:image/png;base64,{img_str}" alt="Linear prediction plot for United States seafood production need. The plot shows historical data points and a dashed best-fit line projecting the need out to 50 years in the future, indicating a steady increase from 0.6 million metric tonnes in 2000 to 1.1 million metric tonnes in 2050.">'))
+display(HTML(f'<img src="data:image/svg+xml;base64,{img_str}" alt="Linear prediction plot for United States seafood production need. The plot shows historical data points and a dashed best-fit line projecting the need out to 50 years in the future, indicating a steady increase from 0.6 million metric tonnes in 2000 to 1.1 million metric tonnes in 2050.">'))
 ```
 
 ## Running on `large.csv`
