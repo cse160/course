@@ -38,7 +38,7 @@ mystmd:
     - typst --version
     - export TYPST_FONT_PATHS="$PWD/fonts"
   script:
-    - pip install nodeenv matplotlib
+    - pip install nodeenv matplotlib pandas
     - nodeenv -n 24.14.1 node_env
     - source node_env/bin/activate
     - npm install
