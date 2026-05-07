@@ -48,6 +48,7 @@ project:
         - file: lectures/nested-structures.md
         - file: lectures/tuples-and-sorting.md
         - file: lectures/visualization.md
+        - file: lectures/objects.md
     - title: Homework
       children:
         - file: homework/practical/practical.md

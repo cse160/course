@@ -192,6 +192,7 @@
       items:
         - type: Lecture
           name: Objects
+          href: /objects
 - name: Libraries
   days:
     - date: Mon, May 11
