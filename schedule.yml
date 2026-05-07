@@ -187,7 +187,11 @@
     - date: Thu, May 7
       items:
         - type: Section
-          name: Sorting and Visualization
+          name: Course Checkpoint & Practice
+          href: https://docs.google.com/presentation/d/1AD5_wQdXBuC_4bO8Tuks4BFeNoeACGCq/edit?usp=sharing&ouid=105466315384079082532&rtpof=true&sd=true
+          auxil:
+            id: Handout
+            href: https://docs.google.com/document/d/1pTR2YLgaVWlA_B7q9IdFRqmAnMOUYuscBgQtkQEFwPA/edit?usp=sharing
     - date: Fri, May 8
       items:
         - type: Lecture
