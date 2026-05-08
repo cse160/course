@@ -86,6 +86,7 @@ class Pokemon:
     def evolve_all(self):
         Pokemon.hp *= 3
 
+
 eevee = Pokemon("Eevee")
 bulbasaur = Pokemon("Bulbasaur")
 
