@@ -49,6 +49,7 @@ project:
         - file: lectures/tuples-and-sorting.md
         - file: lectures/visualization.md
         - file: lectures/objects.md
+        - file: lectures/csv-file-processing.md
     - title: Homework
       children:
         - file: homework/practical/practical.md

@@ -213,6 +213,7 @@
       items:
         - type: Lecture
           name: CSV File Processing
+          href: /csv-file-processing
     - date: Thu, May 14
       items:
         - type: Section
