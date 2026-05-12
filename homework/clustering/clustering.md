@@ -468,7 +468,7 @@ Overall accuracy
 
 Document, doctest, and implement the function `accuracy` that takes a list of points, labels, and centroids and returns the overall accuracy.
 
-### Problem 8: Analyze the Results
+### Problem 8: Analyze the results
 
 In your opinion, looking at the `results/MNIST/final` folder, which letters are easier for the algorithm to distinguish and which are harder? **Write your answer in `answers.txt`.**
 
