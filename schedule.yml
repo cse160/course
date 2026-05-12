@@ -202,7 +202,7 @@
     - date: Mon, May 11
       items:
         - type: Lecture
-          name: More Objects
+          name: Objects (continued)
         - type: Practice
           name: Programming Practice 7
           href: https://jupyter.rttl.uw.edu/2026-spring-cse-160-a/hub/user-redirect/lab/tree/COURSE_MATERIALS/practice
