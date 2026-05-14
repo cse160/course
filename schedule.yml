@@ -218,6 +218,9 @@
       items:
         - type: Section
           name: CSVs and Objects
+          auxil:
+            id: Handout
+            href: https://docs.google.com/document/d/1Tcmy2qIzWVD82wce9X2YC-tYRnzbuizOKLsbqJpwF9A/edit?usp=sharings
         - type: Homework
           name: Fishing Analysis
           href: /fishing-analysis
