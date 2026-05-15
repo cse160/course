@@ -34,7 +34,7 @@ import csv
 
 result = []
 with open("data/games.csv") as f:
-    reader = csv.DictReader(file)
+    reader = csv.DictReader(f)
     for row in reader:
         result.append(row)
 ```
