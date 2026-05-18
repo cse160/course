@@ -111,7 +111,7 @@ games
 
 ## Practice: NFL Dataclasses
 
-After defining the `Game` dataclass and creating the `my_game` instance above, which of the following statements will result in an error?
+After defining the `Game` dataclass and creating the `my_game` instance above, which expression will raise an error?
 
     my_game["score_home"]
     my_game.score_home
