@@ -50,6 +50,7 @@ project:
         - file: lectures/visualization.md
         - file: lectures/objects.md
         - file: lectures/csv-file-processing.md
+        - file: lectures/collections-and-data-classes.md
     - title: Homework
       children:
         - file: homework/practical/practical.md

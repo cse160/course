@@ -236,6 +236,7 @@
       items:
         - type: Lecture
           name: Collections and Data Classes
+          href: /collections-and-data-classes
         - type: Practice
           name: Programming Practice 8
           href: https://jupyter.rttl.uw.edu/2026-spring-cse-160-a/hub/user-redirect/lab/tree/COURSE_MATERIALS/practice
