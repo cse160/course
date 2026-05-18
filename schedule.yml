@@ -246,7 +246,7 @@
     - date: Wed, May 20
       items:
         - type: Lecture
-          name: Itertools and Functools
+          name: Comprehensions
     - date: Thu, May 21
       items:
         - type: Section
@@ -254,7 +254,7 @@
     - date: Fri, May 22
       items:
         - type: Lecture
-          name: Regular Expressions
+          name: Review
 - name: Workflows
   days:
     - date: Wed, May 27
