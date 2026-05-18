@@ -8,7 +8,7 @@ downloads:
     title: Handout
 ---
 
-# Collections and Dataclasses
+# Collections and Data Classes
 
 Python provides many built-in data structures like lists, dictionaries, and tuples. However, sometimes we need more specialized or structured ways to represent and process data. Python's built-in `collections` and `dataclasses` modules provide powerful tools for these scenarios.
 
@@ -67,7 +67,7 @@ Which line of code correctly initializes `disciplines_by_location` using a `defa
     disciplines_by_location = defaultdict(int)
     disciplines_by_location = defaultdict(list())
 
-## Dataclasses
+## Data classes
 
 When processing structured files like CSVs, dictionaries are useful but we've learned that classes can be a better alternative if we want to define methods that act on the structured data. But we've seen that classes in Python require quite a substantial boilerplate (template) code. The `@dataclass` decorator automatically generates dunder methods like `__init__`, `__repr__` and `__eq__`.
 
