@@ -247,6 +247,7 @@
       items:
         - type: Lecture
           name: Comprehensions
+          href: /comprehensions
     - date: Thu, May 21
       items:
         - type: Section
