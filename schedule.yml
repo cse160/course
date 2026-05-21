@@ -251,7 +251,11 @@
     - date: Thu, May 21
       items:
         - type: Section
-          name: Data Processing
+          name: Classes and Comprehensions
+          href: https://docs.google.com/presentation/d/11h2MxyZuZyCnJQgoJW24HOu_XIMf-8Pn/edit?usp=sharing&ouid=105466315384079082532&rtpof=true&sd=true
+          auxil:
+            id: Handout
+            href: https://docs.google.com/document/d/1LAF1uMQezrAlUXwB6HQchjFX3blzyl9fIpo5SH1XS70/edit?usp=sharing
     - date: Fri, May 22
       items:
         - type: Lecture
