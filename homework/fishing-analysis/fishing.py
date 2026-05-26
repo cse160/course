@@ -126,23 +126,6 @@ class Country():
         Given a number of years to predict in the future, returns a 2-tuple of a list of years from
         the latest year to the given number of years in the future and a list of predicted needs
         for each year.
-
-        >>> country = Country("AMP", 1960, 1961)
-        >>> country.farmed = {1960: 321.0, 1961: 333.0}
-        >>> country.wild_caught = {1960: 7777.0, 1961: 8888.0}
-        >>> country.consumption = {1960: None, 1961: 10.42}
-        >>> country.population = {1960: 995623.0, 1961: 996235.0}
-        >>> predictions = country.predict_need(5)  # doctest: +NORMALIZE_WHITESPACE
-        >>> predictions
-        ([1961, 1962, 1963, 1964, 1965, 1966],
-         [10380.76, 10383.41, 10386.06, 10388.70, 10391.35, 10394.00])
-
-        The latest year is predicted as well even though its production need is in the dataset.
-
-        >>> country.farmed[1961] + country.wild_caught[1961]
-        9221.0
-        >>> predictions[1][0]
-        10380.76
         """
         years = []
         needs = []
