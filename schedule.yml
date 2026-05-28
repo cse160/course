@@ -269,7 +269,11 @@
     - date: Thu, May 28
       items:
         - type: Section
-          name: Workflows
+          name: Final Exam Review Pt. 1
+          href: https://docs.google.com/presentation/d/13szuhAu9AvqF0ZnNwfV0X0n2ku_ZeYoO/edit?usp=sharing&ouid=105466315384079082532&rtpof=true&sd=true
+          auxil:
+            id: Handout
+            href: https://docs.google.com/document/d/1OwHKu8kEs6L-Ly7SvXWnj35NmYJDn226u1qEutI_0Kg/edit?usp=sharing
     - date: Fri, May 29
       items:
         - type: Lecture
