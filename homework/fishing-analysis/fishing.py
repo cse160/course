@@ -183,8 +183,8 @@ def plot_linear_prediction(country):
     """Plots the best-fit line and prediction for the given country."""
     plt.plot(country.need.keys(), country.need.values(), label="data", linestyle="", marker="s")
 
-    prediction = country.predict_need(50)
-    plt.plot(prediction["years"], prediction["values"], linestyle="--", label="best-fit prediction")
+    p_years, p_need = country.predict_need(50)
+    plt.plot(p_years, p_need, linestyle="--", label="best-fit prediction")
 
     plt.title("Predicted Production Need For " + country.name)
     plt.xlabel("Year")
