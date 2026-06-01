@@ -259,7 +259,7 @@
     - date: Fri, May 22
       items:
         - type: Lecture
-          name: Review
+          name: Quest Review
 - name: Workflows
   days:
     - date: Wed, May 27
@@ -281,7 +281,7 @@
     - date: Mon, Jun 1
       items:
         - type: Lecture
-          name: More Data Frames
+          name: Final Review
     - date: Wed, Jun 3
       items:
         - type: Lecture
